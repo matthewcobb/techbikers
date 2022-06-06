@@ -36,7 +36,7 @@ kramdown:
     css_class: highlight
 sass:
   style: :expanded
-gems:
+plugins:
 - jekyll-sitemap
 - jekyll-feed
 exclude:
