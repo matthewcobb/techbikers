@@ -22,7 +22,6 @@ p {
 
 h1 {
   font-size: 28px;
-  font-family: 'Carter One', cursive;
   @include bp(sm) {
     font-size: 64px;
   }
