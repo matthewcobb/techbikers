@@ -2,7 +2,7 @@ html, body {
   width: 100%;
   height: 100%;
   margin: 0;
-  background: $purple-dark;
+  background: $theme-dark;
 }
 
 .content {
@@ -36,11 +36,11 @@ section {
     padding-top: 0;
   }
   &.row-dark {
-    background: $purple-dark;
+    background: $theme-dark;
     color: $white-base;
   }
   &.row-base {
-    background: $purple-base;
+    background: $theme-base;
     color: $white-base;
   }
 }
@@ -70,7 +70,7 @@ header {
   }
 
   &.row-base {
-    background: $purple-base;
+    background: $theme-base;
     color: $white-base;
     background-size: cover;
     .content {
@@ -91,7 +91,7 @@ header {
       font-weight: 500;
       padding: $_2em 0;
       &.active {
-        border-bottom: 4px solid $purple-light;
+        border-bottom: 4px solid $theme-fade;
       }
     }
   }
@@ -111,7 +111,7 @@ footer {
   border-radius: 4px;
   padding: $_4em 0;
   &.row-dark {
-    background: $purple-base;
+    background: $theme-base;
     color: $white-base;
   }
 }

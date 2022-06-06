@@ -1,7 +1,7 @@
 body {
   font-family: 'Rubik', sans-serif;
   font-size: 16px;
-  color: $purple-dark;
+  color: $theme-dark;
   line-height: 1.5em;
 }
 
@@ -59,7 +59,7 @@ a {
   line-height: inherit;
   text-decoration: none;
   &:hover {
-    color: $purple-light;
+    color: $theme-light;
   }
 }
 
@@ -71,6 +71,10 @@ a {
   text-align: center;
 }
 
+.large {
+  font-size: 20px;
+}
+
 .text-light {
   opacity: 0.6;
 }
@@ -78,12 +82,12 @@ a {
   font-family: 'Carter One';
 }
 .text-cta {
-  color: $purple-fade;
+  color: $theme-fade;
 }
 .text-impact {
   font-size: 64px;
   margin-bottom: 0;
-  color: $purple-light;
+  color: $theme-fade;
 }
 
 .text-center-below-md {
@@ -113,7 +117,7 @@ article {
     a {
       text-decoration: underline;
       &:hover {
-        color: $purple-fade;
+        color: $theme-fade;
       }
     }
   }

@@ -55,9 +55,8 @@
 .btn-blue        {@include makebutton($blue-base, $blue-dark, $white-base);}
 .btn-turq-dark   {@include makebutton($turq-dark, $turq-heavy, $white-base);}
 .btn-blue-dark   {@include makebutton($blue-dark, $blue-heavy, $white-base);}
-.btn-purple      {@include makebutton($purple-fade, $purple-base, $white-base);}
+.btn-theme      {@include makebutton($theme-fade, $theme-base, $white-base);}
 .btn-orange      {@include makebutton($orange-base, $orange-medium, $orange-dark);}
-.btn-purple-dark {@include makebutton($purple-medium, $purple-dark, $white-base);}
 .btn-yellow      {@include makebutton($yellow-base, $yellow-medium, $black-base);}
 .btn-yellow-fade {@include makebutton(#F7E5AA, #E2CB81, $black-base);}
 .btn-red         {@include makebutton($red-base, $red-medium, $white-base);}

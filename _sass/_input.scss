@@ -1,7 +1,7 @@
 // Form sizes
 
 input[type="email"], input[type="text"], input[type="number"], input[type="password"], textarea, select {
-  border:2px solid $purple-base;
+  border:2px solid $theme-base;
   background: $white-base;
   border-radius: $_05em;
   padding: ($_2em - $_05em);
@@ -14,7 +14,7 @@ input[type="email"], input[type="text"], input[type="number"], input[type="passw
   -webkit-appearance: none;
   -moz-appearance: none;
   &:focus {
-    border: 2px solid $purple-base;
+    border: 2px solid $theme-base;
   }
   &.no-shadow {
     box-shadow: none;
@@ -91,7 +91,7 @@ form a {
     border: 2px solid $grey-fade;
     box-shadow: none;
     &:focus{
-      border: 2px solid $purple-fade;
+      border: 2px solid $theme-fade;
     }
   }
 }
