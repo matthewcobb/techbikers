@@ -1,0 +1,46 @@
+---
+title: TechBikers
+timezone: UTC
+collections:
+  rides:
+    title: Rides
+    output: true
+    permalink: /:collection/:title/
+  posts:
+    title: Posts
+    output: true
+    permalink: /:collection/:title/
+  uploads:
+    title: Uploads
+    output: true
+name: TechBikers
+description: Ditch the laptop & get on your bike
+avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+disqus:
+google_analytics:
+epub_price: $8.99
+paperback_price: $17.99
+amazon_uk_url: https://www.amazon.co.uk/dp/B012CZT24U/ref=cm_sw_em_r_mt_dp_WVJ6HWJJP4BRGGB3KWC6
+amazon_us_url: https://www.amazon.com/dp/1786130084/ref=cm_sw_em_r_mt_dp_GCWXNT7RHGCSHD9JYH7P
+books_2_read_url: https://books2read.com/u/m2RyD7
+donation_url: https://www.justgiving.com/fundraising/fundraisingfieldguide-charity-3
+url:
+baseurl: ""
+permalink: /:title/
+version: v1.2.0
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+sass:
+  style: :expanded
+gems:
+- jekyll-sitemap
+- jekyll-feed
+exclude:
+- Gemfile
+- Gemfile.lock
+- LICENSE
+- README.md
+- CNAME

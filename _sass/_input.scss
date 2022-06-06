@@ -1,0 +1,97 @@
+// Form sizes
+
+input[type="email"], input[type="text"], input[type="number"], input[type="password"], textarea, select {
+  border:2px solid $purple-base;
+  background: $white-base;
+  border-radius: $_05em;
+  padding: ($_2em - $_05em);
+  font-size: 18px;
+  line-height: normal;
+  box-sizing: border-box;
+  outline: none;
+  width: 100%;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.12);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  &:focus {
+    border: 2px solid $purple-base;
+  }
+  &.no-shadow {
+    box-shadow: none;
+  }
+}
+
+select {
+  background: image-url("landing/arrow.png") $white-base no-repeat right center;
+  background-size: $_2em;
+  background-position:calc(100% - 12px) calc(20px);
+}
+
+label {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: $_2em;
+  margin-top: $_2em;
+  display: block;
+  &.label-small {
+    font-size: $_2em;
+  }
+}
+
+.form-group {
+  input {
+    margin-bottom: $_2em;
+  }
+}
+
+.form-50 {
+  @include bp(md) {max-width: 50%;}
+}
+
+.form-70 {
+  @include bp(md) {max-width: 70%;}
+}
+
+.form-80 {
+  @include bp(md) {max-width: 80%;}
+}
+
+.form-full {
+  @include bp(md) {max-width: 100%;}
+}
+
+.form-center{
+  margin: 0 auto;
+}
+
+form a {
+  color: $green-medium;
+}
+
+.form-blue-theme {
+  a { color: $blue-base; }
+  .btn-signup { @extend .btn-blue; }
+}
+
+.form-lg {
+  @include bp(md) {
+    input {
+      padding: $_2em;
+      border-radius: 6px;
+    }
+    .btn-signup {
+      line-height: 28px;
+      border-radius: 6px
+    }
+  }
+}
+
+.form-input-border {
+  input[type="email"], input[type="text"], textarea, select {
+    border: 2px solid $grey-fade;
+    box-shadow: none;
+    &:focus{
+      border: 2px solid $purple-fade;
+    }
+  }
+}

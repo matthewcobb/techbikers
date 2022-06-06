@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+  </head>
+
+  <body>
+    <header class="row-base">
+      {% include nav.html %}
+      <div class="content text-center hidden-until-sm">
+        <h1><a href="{{site.baseurl}}/">{{ page.title }}</a></h1>
+        <p>{{ page.description }}</p>
+      </div>
+    </header>
+
+    <section id="main" role="main">
+      <div class="content">
+        {{ content }}
+      </div>
+    </section>
+
+    {% include footer.html %}
+
+    {% include analytics.html %}
+
+   <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,700" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+   <script src="scripts.js" />
+  </body>
+</html>

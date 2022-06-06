@@ -1,0 +1,30 @@
+// _learn-more.scss
+
+.learn-more{
+  position: fixed;
+  padding:10px 0px;
+  border-radius: 24px;
+  bottom: $_6em;
+  left:50%;
+  margin-left:-75px;
+  width:140px;
+  background: $white-base;
+  box-shadow: 0px 2px 40px rgba(0,0,0,0.15);
+  color:$black-base !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 900;
+  -webkit-animation:bounce 2s infinite;
+  text-align: center;
+  z-index: 100;
+  display:block;
+  opacity: 1;
+
+}
+
+@-webkit-keyframes bounce {
+  0%       {bottom:$_6em;}
+  15%      {bottom:$_8em;}
+  50%      {bottom:$_6em;}
+  100%     {bottom:$_6em;}
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+  </head>
+
+  <body>
+    <header class="hero">
+      {% include nav.html %}
+      <div class="content">
+        <div class="header-text text-center">
+          <h1>Tech<span class="text-cta">Bikers</span></h1>
+          <p>{{ site.description }}</p>
+          <a class="space-top-xs-md btn-purple">Donate now</a>
+        </div>
+      </div>
+      <a class="learn-more smooth-scroll" href="#main">Read more</a>
+    </header>
+
+    <section id="main" role="main" class="row-dark flush-top">
+      <div class="content">
+        <h2>Our mission</h2>
+        <p class="space-bottom-xs-lg">
+          Techbikers is a collaboration of the London tech startup community to help children in need by supporting literacy charity Room to Read. Since 2012 over 300 tech professionals – including start-ups, venture capitalists and executives have cycled 960km in three Paris to London rides to raise money for this fantastic charity.
+        </p>
+        <div class="grid">
+          <div class="cell">
+            <h2 class="text-impact">365</h2>
+            <p>Cyclists</p>
+          </div>
+          <div class="cell">
+            <h2 class="text-impact">304k</h2>
+            <p>Raised since 2012</p>
+          </div>
+          <div class="cell">
+            <h2 class="text-impact">1600km</h2>
+            <p>Ridden</p>
+          </div>
+        </div>
+        <div class="posts space-top-xs-lg space-bottom-xs-lg">
+          <h2 class="space-bottom-xs-md">
+            Previous rides
+          </h2>
+          {% for ride in site.rides %}
+            <div class="panel grid post space-bottom-xs-md">
+              <div class="cell">
+                <h3>
+                  <a href="{{ site.baseurl }}{{ ride.url }}">{{ ride.title }} →</a>
+                </h3>
+                <p class="text-light">{{ ride.date | date: "%B %e, %Y" }}</p>
+              </div>
+              <div class="cell-shrink">
+                <a href="{{ site.baseurl }}{{ ride.url }}" class="btn-purple space-top-xs-sm">
+                  View ride
+                </a>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% if content %}
+      <div class="content">
+        {{ content }}
+      </div>
+      {% endif %}
+    </section>
+
+    {% include footer.html %}
+
+    {% include analytics.html %}
+
+   <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,700" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="scripts.js"></script>
+  </body>
+</html>

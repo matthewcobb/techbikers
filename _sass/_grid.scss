@@ -1,0 +1,334 @@
+// Grid
+
+.grid-column {
+  display: flex;
+  flex-flow: column;
+  box-sizing: border;
+
+  .cell-column {
+    flex: 1;
+    flex-basis: auto;
+    min-width: 0; // Firefox fix
+  }
+  .cell-column-shrink { flex: 0 1 auto; }
+  .cell-column-grow { flex-grow: 1;}
+}
+
+.grid {
+  display:flex;
+  flex-flow: row wrap;
+  box-sizing: border-box;
+
+  &.align-start {
+    align-items: flex-start;
+  }
+
+  &.align-end {
+    align-items: flex-end;
+  }
+
+
+  // TODO improve with variable spacing
+  .cell-pad {
+    padding:$_2em 0;
+  }
+
+  .cell-grow {
+    flex: 1;
+  }
+}
+
+.flex-order {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-shuffle {
+  @include bp-max(sm) {
+    > div {text-align: left;}
+    > div:nth-child(1) {
+      order: 1;
+    }
+    > div:nth-child(2) {
+      order: 2;
+    }
+    > div:nth-child(3) {
+      order: 4;
+    }
+    > div:nth-child(4) {
+      order: 3;
+    }
+    > div:nth-child(5) {
+      order: 6;
+    }
+    > div:nth-child(6) {
+      order: 7;
+    }
+    > div:nth-child(7) {
+      order: 8;
+    }
+    > div:nth-child(8) {
+      order: 7;
+    }
+    > div:nth-child(9) {
+      order: 9;
+    }
+    > div:nth-child(10) {
+      order: 10;
+    }
+    > div:nth-child(11) {
+      order: 12;
+    }
+    > div:nth-child(12) {
+      order:11;
+    }
+  }
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.align-stretch {
+  align-items: stretch;
+}
+
+.align-middle {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content:space-between;
+}
+
+.align-vertical-middle {
+  justify-content: center;
+}
+
+.align-vertical-top {
+  align-self: flex-start;
+}
+
+.align-vertical-bottom {
+  justify-content: flex-end;
+}
+
+.grid-full-height {
+  height: 100%;
+}
+
+.display-inline {
+  display: inline-block;
+}
+
+.grid-reverse-order {
+  flex-direction: row-reverse;
+}
+
+.overflow-hidden {
+  overflow:hidden;
+  position: relative;
+}
+
+// Grid gutters
+@mixin makeGridGutter($size, $space) {
+  @each $breakpoint, $value in $breakpoints {
+    .gutter-#{$breakpoint}-#{$size} {
+      @include bp($breakpoint){
+        margin:0 0 (-$space) (-$space) !important;
+        > :nth-child(n) {
+          box-sizing: border-box;
+          padding-bottom: $space;
+          padding-left: $space;
+        }
+      }
+    }
+  }
+
+  @each $breakpoint, $value in $breakpoints {
+    .gutter-v-#{$breakpoint}-#{$size} {
+      @include bp($breakpoint){
+        margin:(-$space) 0 (-$space) 0 !important;
+        > :nth-child(n) {
+          box-sizing: border-box;
+          padding-bottom: $space;
+          padding-top: $space;
+        }
+      }
+    }
+  }
+
+  .gutter-#{$size}{
+    margin: (-$space) 0 0 (-$space);
+    > :nth-child(n) {
+      padding-top: $space;
+      padding-left: $space;
+    }
+  }
+
+}
+
+@each $size, $spacing in $sizes {
+  @include makeGridGutter($size, $spacing);
+}
+
+// grid
+@mixin makeResponsiveGrid($size) {
+    .grid {
+      > .cell-#{$size}-1     { flex: none; width:100%; box-sizing: border-box; @include bp($size){ width: (100% * (1/16))!important; } }
+      > .cell-#{$size}-2     { flex: none; width:100%; box-sizing: border-box; @include bp($size){ width: (100% * (2/16))!important; } }
+      > .cell-#{$size}-3     { flex: none; width:100%; box-sizing: border-box; @include bp($size){ width: (100% * (3/16))!important; } }
+      > .cell-#{$size}-4     { flex: none; width:100%; box-sizing: border-box; @include bp($size){ width: (100% * (4/16))!important; } }
+      > .cell-#{$size}-5     { flex: none; width:100%; box-sizing: border-box; @include bp($size){ width: (100% * (5/16))!important; } }
+      > .cell-#{$size}-6     { flex: none; width:100%; box-sizing: border-box; @include bp($size){ width: (100% * (6/16))!important; } }
+      > .cell-#{$size}-7     { flex: none; width:100%; box-sizing: border-box; @include bp($size){ width: (100% * (7/16))!important; } }
+      > .cell-#{$size}-8     { flex: none; width:100%; box-sizing: border-box; @include bp($size){ width: (100% * (8/16))!important; } }
+      > .cell-#{$size}-9     { flex: none; width:100%; box-sizing: border-box; @include bp($size){ width: (100% * (9/16))!important; } }
+      > .cell-#{$size}-10    { flex: none; width:100%; box-sizing: border-box; @include bp($size){ width: (100% * (10/16))!important; } }
+      > .cell-#{$size}-11    { flex: none; width:100%; box-sizing: border-box; @include bp($size){ width: (100% * (11/16))!important; } }
+      > .cell-#{$size}-12    { flex: none; width:100%; box-sizing: border-box; @include bp($size){ width: (100% * (12/16))!important; } }
+      > .cell-#{$size}-13    { flex: none; width:100%; box-sizing: border-box; @include bp($size){ width: (100% * (13/16))!important; } }
+      > .cell-#{$size}-14    { flex: none; width:100%; box-sizing: border-box; @include bp($size){ width: (100% * (14/16))!important; } }
+      > .cell-#{$size}-15    { flex: none; width:100%; box-sizing: border-box; @include bp($size){ width: (100% * (15/16))!important; } }
+      > .cell-#{$size}-16    { flex: none; box-sizing: border-box; @include bp($size) { width: 100% !important; } }
+
+      > .cell-#{$size}-third { flex: none; width:100%; box-sizing: border-box; @include bp($size){ width: 33% !important; } }
+      > .cell-#{$size}-fifth { flex: none; width:100%; box-sizing: border-box; @include bp($size){ width: 20% !important; } }
+      > .cell-#{$size}-sixth { flex: none; width:100%; box-sizing: border-box; @include bp($size){ width: 16.6% !important; } }
+
+      > .cell-#{$size}-shrink { flex:none; width:100%; @include bp($size) { width: auto; flex: 0 1 auto; } }
+
+      &.#{$size}-fit > .cell {
+        @include bp($size) {
+          flex: 1;
+        }
+      }
+
+      &.#{$size}-full > .cell {
+        @include bp($size) {
+          flex: 0 0 100%;
+        }
+      }
+    }
+}
+
+.cell {
+  flex: 1;
+  min-width:0;
+}
+
+.cell-fit    { flex: 1; }
+.cell-full   { flex: 0 0 100%; }
+.cell-shrink { flex: 0 1 auto; }
+
+.grid {
+  &:not(.no-response) > .cell{
+    flex: 0 0 100%;
+    @include bp(sm) {
+      flex: 1;
+    }
+  }
+  &:not(.no-response) > .cell-shrink{
+    flex: 0 0 100%;
+    @include bp(sm) {
+      flex: 0 1 auto;
+    }
+  }
+ }
+
+@include makeResponsiveGrid(xs);
+@include makeResponsiveGrid(sm);
+@include makeResponsiveGrid(md);
+@include makeResponsiveGrid(lg);
+
+@mixin makeSpace($size, $space){
+  @include bp(xs){
+    .space-left-xs-#{$size}{
+      margin-left: $space !important;
+    }
+    .space-top-xs-#{$size}{
+      margin-top: $space !important;
+    }
+    .space-right-xs-#{$size}{
+      margin-right: $space !important;
+    }
+    .space-bottom-xs-#{$size}{
+      margin-bottom: $space !important;
+    }
+    .space-bottom-xs-none {
+      margin-bottom:0 !important;
+    }
+    .space-top-xs-none {
+      margin-top:0 !important;
+    }
+  }
+  @include bp(sm){
+    .space-left-sm-#{$size}{
+      margin-left: $space !important;
+    }
+    .space-top-sm-#{$size}{
+      margin-top: $space !important;
+    }
+    .space-right-sm-#{$size}{
+      margin-right: $space !important;
+    }
+    .space-bottom-sm-#{$size}{
+      margin-bottom: $space !important;
+    }
+    .space-bottom-sm-none {
+      margin-bottom:0 !important;
+    }
+    .space-top-sm-none {
+      margin-top:0 !important;
+    }
+  }
+  @include bp(md){
+    .space-left-md-#{$size}{
+      margin-left: $space !important;
+    }
+    .space-top-md-#{$size}{
+      margin-top: $space !important;
+    }
+    .space-right-md-#{$size}{
+      margin-right: $space !important;
+    }
+    .space-bottom-md-#{$size}{
+      margin-bottom: $space !important;
+    }
+    .space-bottom-md-none {
+      margin-bottom:0 !important;
+    }
+    .space-top-md-none {
+      margin-top:0 !important;
+    }
+  }
+  @include bp(lg){
+    .space-left-lg-#{$size}{
+      margin-left: $space !important;
+    }
+    .space-top-lg-#{$size}{
+      margin-top: $space !important;
+    }
+    .space-right-lg-#{$size}{
+      margin-right: $space !important;
+    }
+    .space-bottom-lg-#{$size}{
+      margin-bottom: $space !important;
+    }
+    .space-bottom-lg-none {
+      margin-bottom:0 !important;
+    }
+    .space-top-lg-none {
+      margin-top:0 !important;
+    }
+  }
+}
+
+@include makeSpace(none, 0);
+@include makeSpace(xs, $_05em);
+@include makeSpace(sm, $_1em);
+@include makeSpace(md, $_2em);
+@include makeSpace(lg, $_4em);
+@include makeSpace(xl, $_6em);
+@include makeSpace(xxl, $_8em);
+@include makeSpace(xxxl, 100px);
