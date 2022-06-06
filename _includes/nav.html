@@ -6,9 +6,9 @@
     {% for item in site.data.nav %}
       <div>
         {% if page.url == item.url %}
-          <a href="{{item.url}}" class="active">{{item.title}}</a>
+          <a href="{{site.baseurl}}{{item.url}}" class="active">{{item.title}}</a>
         {% else %}
-          <a href="{{item.url}}">{{item.title}}</a>
+          <a href="{{site.baseurl}}{{item.url}}">{{item.title}}</a>
         {% endif %}
       </div>
     {% endfor %}
