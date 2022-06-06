@@ -38,33 +38,43 @@
             <p>Cyclists</p>
           </div>
           <div class="cell">
-            <h2 class="text-impact">304k</h2>
+            <h2 class="text-impact">£304<span class="text-base">k</span></h2>
             <p>Raised since 2012</p>
           </div>
           <div class="cell">
-            <h2 class="text-impact">1600km</h2>
+            <h2 class="text-impact">1600<span class="text-base">km</span></h2>
             <p>Ridden</p>
           </div>
         </div>
-        <div class="posts space-top-xs-lg space-bottom-xs-lg">
+        <div class="posts space-top-xs-lg space-bottom-xs-xl">
           <h2 class="space-bottom-xs-md">
-            Previous rides
+            🚴 Our rides
           </h2>
-          {% for ride in site.rides %}
-            <div class="panel grid post space-bottom-xs-md">
+          {% for ride in site.rides reversed %}
+            <div class="panel grid align-middle post space-bottom-xs-md {% if ride.upcoming %}active{% endif %}">
               <div class="cell">
-                <h3>
+                {% if ride.upcoming %}
+                  <p class="text-base">UPCOMING</p>
+                {% endif %}
+                <h3 class="space-top-xs-none">
                   <a href="{{ site.baseurl }}{{ ride.url }}">{{ ride.title }} →</a>
                 </h3>
-                <p class="text-light">{{ ride.date | date: "%B %e, %Y" }}</p>
+                <p class="text-light space-bottom-xs-none">
+                  {{ ride.date | date: "%Y" }}
+                </p>
               </div>
               <div class="cell-shrink">
-                <a href="{{ site.baseurl }}{{ ride.url }}" class="btn-theme space-top-xs-sm">
-                  View ride
+                <a href="{{ site.baseurl }}{{ ride.url }}" class="btn-theme">
+                  Learn more
                 </a>
               </div>
             </div>
           {% endfor %}
+          <div class="text-center">
+            <a href="{{ site.baseurl }}/rides/" class="space-top-xs-md btn-theme">
+              View all rides
+            </a>
+          </div>
         </div>
       </div>
       {% if content %}

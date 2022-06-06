@@ -16,6 +16,7 @@
   cursor: pointer;
   box-sizing: border-box;
   text-decoration: none;
+  transition: background-color 0.15s ease;
   &:hover {
     background: $bgcolor-hover;
     color: $color !important;
@@ -55,7 +56,7 @@
 .btn-blue        {@include makebutton($blue-base, $blue-dark, $white-base);}
 .btn-turq-dark   {@include makebutton($turq-dark, $turq-heavy, $white-base);}
 .btn-blue-dark   {@include makebutton($blue-dark, $blue-heavy, $white-base);}
-.btn-theme      {@include makebutton($theme-fade, $theme-base, $white-base);}
+.btn-theme      {@include makebutton($theme-fade, $theme-2fade, $white-base);}
 .btn-orange      {@include makebutton($orange-base, $orange-medium, $orange-dark);}
 .btn-yellow      {@include makebutton($yellow-base, $yellow-medium, $black-base);}
 .btn-yellow-fade {@include makebutton(#F7E5AA, #E2CB81, $black-base);}

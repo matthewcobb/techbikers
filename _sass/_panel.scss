@@ -1,8 +1,16 @@
 .panel {
-  padding: $_2em;
+  padding: $_2em $_4em $_2em $_2em;
   border-radius: $_2em;
   background: $theme-base;
+  border: 4px solid $theme-base;
   .panel-body {
 
+  }
+  &:hover {
+    border: 4px solid $theme-2fade;
+  }
+  &.active {
+    background: $theme-2fade;
+    border: 4px solid $theme-fade;
   }
 }

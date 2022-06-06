@@ -30,7 +30,7 @@ h1 {
 h2 {
   font-size: 24px;
   @include bp(sm) {
-    font-size: 32px;
+    font-size: 36px;
   }
 
 }
@@ -82,6 +82,9 @@ a {
 }
 .text-cta {
   color: $theme-fade;
+}
+.text-base {
+  color: $theme-base;
 }
 .text-impact {
   font-size: 64px;

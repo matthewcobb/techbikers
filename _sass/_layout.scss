@@ -39,10 +39,6 @@ section {
     background: $theme-dark;
     color: $white-base;
   }
-  &.row-base {
-    background: $theme-base;
-    color: $white-base;
-  }
 }
 
 header {
@@ -70,7 +66,7 @@ header {
   }
 
   &.row-base {
-    background: $theme-base;
+    background: $theme-medium;
     color: $white-base;
     background-size: cover;
     .content {
@@ -109,9 +105,9 @@ header {
 
 footer {
   border-radius: 4px;
-  padding: $_4em 0;
+  padding: $_6em 0;
   &.row-dark {
-    background: $theme-base;
+    background: $theme-heavy;
     color: $white-base;
   }
 }
