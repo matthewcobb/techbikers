@@ -15,3 +15,5 @@ fields:
 - type: text
   name: layout
   label: layout
+pages:
+- _rides/2014-03-03-paris-to-london-2012.md
