@@ -1,6 +1,6 @@
 ---
 layout: page
-title: FAQ's
+title: FAQ
 ---
 TechBikers was born in 2012 from Google Campus in London as a means for the tech community to put down their laptops and pick up a bike to support charity, network, share ideas and spread the start-up vibe.
 

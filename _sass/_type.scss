@@ -23,7 +23,7 @@ p {
 h1 {
   font-size: 40px;
   @include bp(sm) {
-    font-size: 64px;
+    font-size: 48px;
   }
 }
 
@@ -62,10 +62,6 @@ a {
   }
 }
 
-.logo {
-  font-size: 40px;
-}
-
 .text-center {
   text-align: center;
 }
@@ -77,9 +73,15 @@ a {
 .text-light {
   opacity: 0.6;
 }
+
 .text-logo {
   font-family: 'Carter One';
+  font-size: 40px;
+  @include bp(sm) {
+    font-size: 64px;
+  }
 }
+
 .text-cta {
   color: $theme-fade;
 }

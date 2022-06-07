@@ -1,6 +1,6 @@
 ---
 layout: index
-title: TechBikers
+title: index
 
 ---
 ## 🙌🏼 Sponsors
