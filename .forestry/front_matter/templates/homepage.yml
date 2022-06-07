@@ -15,8 +15,8 @@ fields:
 - name: subheading
   type: text
   config:
-    required: false
-  label: Subheading
+    required: true
+  label: subheading
 - name: content
   type: textarea
   default: ''
@@ -27,7 +27,11 @@ fields:
       format: markdown
   label: content
 - name: sponsors
-  type: text
+  type: textarea
+  default: ''
   config:
     required: false
-  label: Sponsors
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: sponsors
