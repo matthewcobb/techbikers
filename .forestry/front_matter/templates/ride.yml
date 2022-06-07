@@ -8,6 +8,10 @@ fields:
 - type: datetime
   name: date
   label: date
+- name: upcoming
+  type: boolean
+  label: Upcoming
+  description: Mark this as the next upcoming event
 - type: text
   name: layout
   label: layout
