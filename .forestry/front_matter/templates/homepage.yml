@@ -1,6 +1,7 @@
 ---
 label: Homepage
-hide_body: true
+hide_body: false
+display_field: sponsors
 fields:
 - type: text
   name: title
@@ -17,12 +18,21 @@ fields:
   config:
     required: true
   label: subheading
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: content
 - name: sponsors
   type: textarea
   default: ''
   config:
     required: false
-    wysiwyg: false
+    wysiwyg: true
     schema:
       format: markdown
   label: sponsors
