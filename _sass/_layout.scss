@@ -47,6 +47,7 @@ header {
   width: 100%;
   color: $theme-dark;
   z-index: 1;
+  overflow: hidden;
 
   .content, nav {
     z-index: 10;
@@ -106,12 +107,17 @@ header {
     width: 40%;
     top: 0;
     min-width: 250px;
+    max-width: 800px;
     z-index: -2;
 
     &.right {
       background: url("images/header/cloud-right.svg") no-repeat;
       background-size: contain;
       right: 0;
+      top: 120px;
+      @include bp(sm){
+        top: 0px;
+      }
     }
     &.left {
       background: url("images/header/cloud-left.svg") no-repeat;
@@ -129,7 +135,7 @@ header {
     &.right {
       background: url("images/header/tree-right.svg") no-repeat right bottom;
       background-size: contain;
-      right: -15%;
+      right: -25%;
       @include bp(md){
         right: 0
       }
@@ -137,7 +143,7 @@ header {
     &.left {
       background: url("images/header/tree-left.svg") no-repeat left bottom;
       background-size: contain;
-      left: -15%;
+      left: -25%;
       @include bp(md){
         left: 0;
       }
@@ -154,7 +160,10 @@ header {
     width: 100%;
     box-sizing: border-box;
     z-index: 10;
-    padding: $_2em $_3em;
+    padding: $_1em $_1em $_1em $_2em;
+    @include bp(sm) {
+      padding: $_2em $_3em;
+    }
     display: flex;
     align-items: center;
     justify-content: space-between;

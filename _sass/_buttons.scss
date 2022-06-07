@@ -6,7 +6,7 @@
   display: inline-block;
   border: none;
   text-align: center;
-  border-radius: 6px;
+  border-radius: $_5em;
   padding :$_2em $_3em;
   font-family: 'Rubik';
   font-size: 18px;
@@ -28,101 +28,17 @@
   }
 }
 
-// Make full width
-@mixin makeFullWidth ($size) {
-  .btn-#{$size}-full{
-    @include bp-max ($size) {
-      width:100%;
-    }
-  }
-}
-
-@include makeFullWidth(sm);
-@include makeFullWidth(md);
-@include makeFullWidth(lg);
-@include makeFullWidth(xl);
-
 // Define button colors
-.btn-slate       {@include makebutton($slate-base, $slate-dark, $white-base);}
-.btn-slate-medium{@include makebutton($slate-medium, $slate-dark, $white-base);}
-.btn-slate-dark  {@include makebutton($slate-heavy, $slate-heavy, $white-base);}
-.btn-biege       {@include makebutton($beige-base, $beige-fade, $black-base);}
-.btn-green       {@include makebutton($green-base, $green-medium, $white-base);}
-.btn-green-faint {@include makebutton($green-faint, $green-fade, $black-base);}
-.btn-green-fade  {@include makebutton($green-fade, $green-faint, $black-base);}
-.btn-green-dark  {@include makebutton($green-medium, $green-dark, $white-base);}
-.btn-white       {@include makebutton($white-base, $grey-fade, $black-base);}
-.btn-blue-fade   {@include makebutton($blue-fade, $blue-fade-hover, $black-base);}
-.btn-blue        {@include makebutton($blue-base, $blue-dark, $white-base);}
-.btn-turq-dark   {@include makebutton($turq-dark, $turq-heavy, $white-base);}
-.btn-blue-dark   {@include makebutton($blue-dark, $blue-heavy, $white-base);}
 .btn-theme      {@include makebutton($theme-fade, $theme-2fade, $white-base);}
-.btn-orange      {@include makebutton($orange-base, $orange-medium, $orange-dark);}
-.btn-yellow      {@include makebutton($yellow-base, $yellow-medium, $black-base);}
-.btn-yellow-fade {@include makebutton(#F7E5AA, #E2CB81, $black-base);}
-.btn-red         {@include makebutton($red-base, $red-medium, $white-base);}
-.btn-grey        {@include makebutton($grey-faint, $grey-fade, $black-base);}
-.btn-grey-dark   {@include makebutton($grey-fade, $grey-fade, $black-base);}
 
 // Button states
 .btn-full {
   width:100%;
 }
 
-.btn-inline {
-  > * {
-    margin-right: $_1em;
-    margin-bottom: $_1em;
-  }
-}
-
 .btn-full-mob {
   @include bp-max(sm) {
     width: 100%;
-  }
-}
-
-.button-group {
-  padding: 0;
-  font-size: 16px;
-  line-height: 18px;
-  font-weight: 500;
-  display: flex;
-  a:hover {
-    text-decoration: none !important;
-  }
-  > div {
-    display: inline-block;
-  }
-  .first {
-    box-sizing: border-box;
-    background: $orange-base;
-    padding: 12px;
-    text-align: center;
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
-    color: $orange-dark;
-    width: 100%;
-    @include bp(sm) {
-      width: auto;
-    }
-    &:hover {
-      background: $orange-fade;
-    }
-  }
-  .second {
-    color: $orange-dark;
-    box-sizing: border-box;
-    padding: 12px $_3em;
-    background: $orange-medium;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
-    &:hover {
-      background: $orange-fade;
-    }
-    @include bp(sm) {
-      padding: 12px;
-    }
   }
 }
 
@@ -140,33 +56,4 @@
   padding: $_3em $_4em;
   font-size: 24px;
   border-radius: 6px;
-}
-
-.btn-lowercase {
-  text-transform: initial;
-}
-
-.btn-circle {
-  border-radius: 50%;
-}
-
-.btn-disabled {
-  opacity: 0.3;
-}
-
-.btn-close {
-  cursor: pointer;
-}
-
-.btn-rounded {
-  border-radius: $_4em;
-  padding-left: $_3em;
-  padding-right: $_3em;
-}
-
-span.btn-modal-trigger {
-  font-weight: bold;
-}
-.btn-modal-trigger {
-  cursor: pointer;
 }
