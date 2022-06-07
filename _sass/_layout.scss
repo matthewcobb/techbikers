@@ -61,10 +61,19 @@ header {
 
   &.hero {
     background: #FFF1E2;
+    background-size: 1000px;
+    background-position: center 101%;
+    @include bp(sm){
+      background-size: 1500px;
+    }
+
+    @include bp(md){
+      background-size: cover;
+    }
 
     .header-text {
       max-width: 600px;
-      margin: $_3em auto 150px;
+      margin: $_3em auto 200px;
       @include bp(sm) {
         margin: $_8em auto 350px;
       }
