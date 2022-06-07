@@ -1,6 +1,6 @@
 ---
 label: Homepage
-hide_body: true
+hide_body: false
 fields:
 - name: title
   type: text
@@ -17,15 +17,6 @@ fields:
   config:
     required: true
   label: meta-description
-- name: content
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: content
 - name: sponsors
   type: textarea
   default: ''
