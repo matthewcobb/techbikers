@@ -1,6 +1,10 @@
 ---
 layout: index
 title: index
+meta-description: ''
+subheading: ''
+content: ''
+sponsors: ''
 
 ---
 ## 🙌🏼 Sponsors
