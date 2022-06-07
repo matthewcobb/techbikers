@@ -2,8 +2,13 @@
 label: Homepage
 hide_body: true
 fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: title
 - type: text
-  name: title
+  name: meta-title
   label: meta-title
   config:
     required: true
