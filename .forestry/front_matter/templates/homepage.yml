@@ -1,7 +1,6 @@
 ---
 label: Homepage
-hide_body: false
-display_field: sponsors
+hide_body: true
 fields:
 - type: text
   name: title
