@@ -16,7 +16,7 @@
   @for $var from 2 to 8 {
     .frame-#{$var} {
       background: url("images/frames/#{$var}.svg") center 101% no-repeat;
-      background-size: 900px;
+      background-size: 700px;
       @include bp(sm){
         background-size: 1500px;
       }
@@ -28,7 +28,7 @@
 
   .top {
     background: url("images/frames/top.svg") center 101% no-repeat;
-    background-size: 900px;
+    background-size: 700px;
     @include bp(sm){
       background-size: 1500px;
     }
