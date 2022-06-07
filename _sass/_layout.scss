@@ -46,6 +46,12 @@ header {
   box-sizing: border-box;
   width: 100%;
   color: $theme-dark;
+  z-index: 1;
+
+  .content, nav {
+    z-index: 10;
+  }
+
   .header-text {
     margin: $_2em auto;
     @include bp(sm) {
@@ -53,26 +59,91 @@ header {
     }
   }
 
-  &.hero {
-    background: url("images/header.svg") #FFF1E2 no-repeat;
-    background-size: 1000px;
+  &.index {
+    .header-text {
+      max-width: 600px;
+      margin: $_4em auto 250px;
+      @include bp(sm) {
+        margin: $_8em auto 350px;
+      }
+    }
+  }
+
+  .hero {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: url("images/header.svg") no-repeat;
+    background-size: 1500px;
     background-position: center 101%;
+    z-index: -1;
     @include bp(sm){
-      background-size: 1500px;
+      background-size: 2100px;
     }
 
     @include bp(md){
       background-size: cover;
     }
 
-    .header-text {
-      max-width: 600px;
-      margin: $_3em auto 200px;
-      @include bp(sm) {
-        margin: $_8em auto 350px;
+    @include bp(xl) {
+      background-size: 2200px;
+    }
+  }
+
+  .bar {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: linear-gradient(177deg, rgba(255,241,226,1) 0%, rgba(255,241,226,1) 70%, rgba(251,221,189,1) 70%, rgba(251,221,189,1) 78%, rgba(9,15,41,1) 78%);
+    z-index: -3;
+  }
+
+  .cloud {
+    position: absolute;
+    height: 100%;
+    width: 40%;
+    top: 0;
+    min-width: 250px;
+    z-index: -2;
+
+    &.right {
+      background: url("images/header/cloud-right.svg") no-repeat;
+      background-size: contain;
+      right: 0;
+    }
+    &.left {
+      background: url("images/header/cloud-left.svg") no-repeat;
+      background-size: contain;
+      left: 0;
+    }
+  }
+
+  .tree {
+    position: absolute;
+    height: 90%;
+    width: 25%;
+    bottom: 0px;
+    z-index: 1;
+    &.right {
+      background: url("images/header/tree-right.svg") no-repeat right bottom;
+      background-size: contain;
+      right: -15%;
+      @include bp(md){
+        right: 0
+      }
+    }
+    &.left {
+      background: url("images/header/tree-left.svg") no-repeat left bottom;
+      background-size: contain;
+      left: -15%;
+      @include bp(md){
+        left: 0;
       }
     }
   }
+
 
   &.dark {
     background: $theme-heavy;
