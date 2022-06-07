@@ -46,6 +46,12 @@ header {
   box-sizing: border-box;
   width: 100%;
   color: $theme-dark;
+  z-index: 1;
+
+  .content {
+    z-index: 1;
+  }
+
   .header-text {
     margin: $_2em auto;
     @include bp(sm) {
@@ -54,7 +60,7 @@ header {
   }
 
   &.hero {
-    background: url("images/header.svg") #FFF1E2 no-repeat;
+    background: #FFF1E2;
     background-size: 1000px;
     background-position: center 101%;
     @include bp(sm){
