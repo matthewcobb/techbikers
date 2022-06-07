@@ -3,8 +3,31 @@ label: Homepage
 hide_body: false
 fields:
 - type: text
-  name: layout
-  label: layout
-- type: text
   name: title
-  label: title
+  label: meta-title
+  config:
+    required: true
+- name: meta-description
+  type: text
+  config:
+    required: true
+  label: meta-description
+- name: subheading
+  type: text
+  config:
+    required: false
+  label: Subheading
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: content
+- name: sponsors
+  type: text
+  config:
+    required: false
+  label: Sponsors
