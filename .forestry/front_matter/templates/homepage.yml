@@ -17,11 +17,6 @@ fields:
   config:
     required: true
   label: meta-description
-- name: subheading
-  type: text
-  config:
-    required: true
-  label: subheading
 - name: content
   type: textarea
   default: ''
