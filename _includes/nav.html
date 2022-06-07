@@ -2,15 +2,18 @@
   <h3 class=" space-bottom-xs-none space-top-xs-none">
     <a href="{{ site.baseurl }}/">TECH<span class="text-cta">BIKERS</span></a>
   </h3>
-  <div class="grid gutter-xs-lg">
+  <div class="grid align-middle gutter-xs-lg">
     {% for item in site.data.nav %}
-      <div>
-        {% if page.url == item.url %}
+      <div class="hidden-until-sm">
+        {% if page.url contains item.url %}
           <a href="{{site.baseurl}}{{item.url}}" class="active">{{item.title}}</a>
         {% else %}
           <a href="{{site.baseurl}}{{item.url}}">{{item.title}}</a>
         {% endif %}
       </div>
     {% endfor %}
+    <div>
+      <a class="btn-theme btn-sm">Apply now</a>
+    </div>
  </div>
 </nav>

@@ -1,5 +1,5 @@
 .panel {
-  padding: $_2em $_4em $_2em $_2em;
+  padding: $_2em;
   border-radius: $_2em;
   background: $theme-base;
   border: 4px solid $theme-base;
@@ -12,5 +12,23 @@
   &.active {
     background: $theme-2fade;
     border: 4px solid $theme-fade;
+  }
+}
+
+.youtube {
+  width: 100%;
+  padding-bottom: 56.25%;
+  position: relative;
+  border-radius: $_2em;
+  overflow: hidden;
+  margin-bottom: $_6em;
+  box-shadow: 0px $_1em $_6em $theme-heavy;
+  iframe {
+    height: 100%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    width: 100%;
   }
 }

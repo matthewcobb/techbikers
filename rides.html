@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<header class="dark">
+  {% include nav.html %}
+  <div class="content">
+    <div class="header-text">
+      <h1>
+        Rides
+      </h1>
+      <p>{{ page.description }}</p>
+    </div>
+  </div>
+</header>
+
+<section id="main" role="main">
+  <div class="content">
+    {% for ride in site.rides reversed %}
+      {% include ride.html %}
+    {% endfor %}
+  </div>
+</section>

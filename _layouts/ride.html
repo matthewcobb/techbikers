@@ -1,19 +1,29 @@
 ---
 layout: default
 ---
+<header class="dark">
+  {% include nav.html %}
+</header>
 
-<article class="ride">
-  <div class="text-light space-bottom-xs-md">
-    <a href="{{ site.baseurl }}/">← Back to home page</a> – Posted on {{ page.date | date: "%B %e, %Y" }}
-  </div>
+<section id="main" role="main" class="light">
+  <div class="content">
+    <article class="post">
+      <div class="text-light space-bottom-xs-md">
+        <a href="{{ site.baseurl }}/">← Back to home page</a> – Posted on {{ page.date | date: "%B %e, %Y" }}
+      </div>
+      <h1 class="space-bottom-xs-sm">
+        {{ page.title }}
+      </h1>
 
-  {% if page.featured_image.size  > 2 %}
-  <div class="featured-image">
-    <img src="{{ page.featured_image }}" class="img-full" />
-  </div>
-  {% endif %}
+      {% if page.featured_image.size  > 2 %}
+      <div class="featured-image">
+        <img src="{{ page.featured_image }}" class="img-full" />
+      </div>
+      {% endif %}
 
-  <div class="entry space-top-xs-sm">
-    {{ content }}
+      <div class="entry space-top-xs-sm">
+        {{ content }}
+      </div>
+    </article>
   </div>
-</article>
+</section>

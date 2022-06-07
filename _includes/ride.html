@@ -1,0 +1,18 @@
+<div class="panel grid align-middle post space-bottom-xs-md {% if ride.upcoming %}active{% endif %}">
+  <div class="cell">
+    {% if ride.upcoming %}
+      <p class="text-base">UPCOMING</p>
+    {% endif %}
+    <h3 class="space-top-xs-none">
+      <a href="{{ site.baseurl }}{{ ride.url }}">{{ ride.title }} →</a>
+    </h3>
+    <p class="text-light space-bottom-xs-none">
+      {{ ride.date | date: "%Y" }}
+    </p>
+  </div>
+  <div class="cell-shrink">
+    <a href="{{ site.baseurl }}{{ ride.url }}" class="btn-theme btn-full-mob space-right-md-md">
+      Learn more
+    </a>
+  </div>
+</div>

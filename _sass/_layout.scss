@@ -2,6 +2,7 @@ html, body {
   width: 100%;
   height: 100%;
   margin: 0;
+  padding:0;
   background: $theme-dark;
 }
 
@@ -24,7 +25,6 @@ html, body {
 }
 
 section {
-  background: $white-base;
   padding: $_3em 0;
   @include bp(sm) {
     padding: $_8em 0;
@@ -35,9 +35,9 @@ section {
   &.flush-top {
     padding-top: 0;
   }
-  &.row-dark {
-    background: $theme-dark;
-    color: $white-base;
+  &.light {
+    background: $white-base;
+    color: $theme-dark;
   }
 }
 
@@ -45,17 +45,18 @@ header {
   position: relative;
   box-sizing: border-box;
   width: 100%;
+  color: $theme-dark;
   .header-text {
-    max-width: 600px;
-    margin: $_3em auto 200px;
+    margin: $_2em auto;
     @include bp(sm) {
-      margin: $_6em auto 350px;
+      margin: $_5em auto;
     }
   }
-  &.hero {
-    background: url("images/header.svg") #FFF1E2 no-repeat bottom center;
-    background-size: 1000px;
 
+  &.hero {
+    background: url("images/header.svg") #FFF1E2 no-repeat;
+    background-size: 1000px;
+    background-position: center 101%;
     @include bp(sm){
       background-size: 1500px;
     }
@@ -63,23 +64,28 @@ header {
     @include bp(md){
       background-size: cover;
     }
+
+    .header-text {
+      max-width: 600px;
+      margin: $_3em auto 200px;
+      @include bp(sm) {
+        margin: $_8em auto 350px;
+      }
+    }
   }
 
-  &.row-base {
-    background: $theme-medium;
+  &.dark {
+    background: $theme-heavy;
     color: $white-base;
-    background-size: cover;
-    .content {
-      padding: $_2em 0 $_4em;
-    }
   }
 
   nav {
     width: 100%;
     box-sizing: border-box;
     z-index: 10;
-    padding: $_3em;
+    padding: $_2em $_3em;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     a {
       font-size: 18px;

@@ -1,97 +1,58 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>{{ site.name }} – {{ site.description }}</title>
+---
+layout: default
+---
 
-    {% include meta.html %}
+<header class="hero">
+  {% include nav.html %}
+  <div class="content">
+    <div class="header-text text-center">
+      <h1 class="text-logo">Tech<span class="text-cta">Bikers</span></h1>
+      <p class="large">Ditch the laptop & get out on your bike!</p>
+      <a class="space-top-xs-md btn-theme">Donate now</a>
+    </div>
+  </div>
+</header>
 
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-  </head>
-
-  <body>
-    <header class="hero">
-      {% include nav.html %}
-      <div class="content">
-        <div class="header-text text-center">
-          <h1 class="text-logo">Tech<span class="text-cta">Bikers</span></h1>
-          <p class="large">Ditch the laptop & get out on your bike!</p>
-          <a class="space-top-xs-md btn-theme">Donate now</a>
-        </div>
+<section id="main" role="main" class="row-dark flush-top">
+  <div class="content">
+    <h2>Our mission</h2>
+    <p class="space-bottom-xs-lg">
+      Techbikers is a collaboration of the London tech startup community to help children in need by supporting literacy charity Room to Read. Since 2012 over 300 tech professionals – including start-ups, venture capitalists and executives have cycled 960km in three Paris to London rides to raise money for this fantastic charity.
+    </p>
+    <div class="grid">
+      <div class="cell">
+        <h2 class="text-impact">365</h2>
+        <p>Cyclists</p>
       </div>
-      <a class="learn-more smooth-scroll" href="#main">Read more</a>
-    </header>
-
-    <section id="main" role="main" class="row-dark flush-top">
-      <div class="content">
-        <h2>Our mission</h2>
-        <p class="space-bottom-xs-lg">
-          Techbikers is a collaboration of the London tech startup community to help children in need by supporting literacy charity Room to Read. Since 2012 over 300 tech professionals – including start-ups, venture capitalists and executives have cycled 960km in three Paris to London rides to raise money for this fantastic charity.
-        </p>
-        <div class="grid">
-          <div class="cell">
-            <h2 class="text-impact">365</h2>
-            <p>Cyclists</p>
-          </div>
-          <div class="cell">
-            <h2 class="text-impact">£304<span class="text-light">k</span></h2>
-            <p>Raised since 2012</p>
-          </div>
-          <div class="cell">
-            <h2 class="text-impact">1600<span class="text-light">km</span></h2>
-            <p>Ridden</p>
-          </div>
-        </div>
-        <div class="posts space-top-xs-lg space-bottom-xs-xl">
-          <h2 class="space-bottom-xs-md">
-            🚴 Our rides
-          </h2>
-          {% for ride in site.rides reversed %}
-            <div class="panel grid align-middle post space-bottom-xs-md {% if ride.upcoming %}active{% endif %}">
-              <div class="cell">
-                {% if ride.upcoming %}
-                  <p class="text-base">UPCOMING</p>
-                {% endif %}
-                <h3 class="space-top-xs-none">
-                  <a href="{{ site.baseurl }}{{ ride.url }}">{{ ride.title }} →</a>
-                </h3>
-                <p class="text-light space-bottom-xs-none">
-                  {{ ride.date | date: "%Y" }}
-                </p>
-              </div>
-              <div class="cell-shrink">
-                <a href="{{ site.baseurl }}{{ ride.url }}" class="btn-theme">
-                  Learn more
-                </a>
-              </div>
-            </div>
-          {% endfor %}
-          <div class="text-center">
-            <a href="{{ site.baseurl }}/rides/" class="space-top-xs-md btn-theme">
-              View all rides
-            </a>
-          </div>
-        </div>
+      <div class="cell">
+        <h2 class="text-impact">£304<span class="text-light">k</span></h2>
+        <p>Raised since 2012</p>
       </div>
-      {% if content %}
-      <div class="content">
-        {{ content }}
+      <div class="cell">
+        <h2 class="text-impact">1600<span class="text-light">km</span></h2>
+        <p>Ridden</p>
       </div>
-      {% endif %}
-    </section>
-
-    {% include footer.html %}
-
-    {% include analytics.html %}
-
-   <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,700" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-   <script src="scripts.js"></script>
-  </body>
-</html>
+    </div>
+    <div class="posts space-top-xs-lg space-bottom-xs-xl">
+      <h2 class="space-bottom-xs-md">
+        🚴 Our rides
+      </h2>
+      {% for ride in site.rides reversed %}
+        {% include ride.html %}
+      {% endfor %}
+      <div class="text-center">
+        <a href="{{ site.baseurl }}/rides/" class="space-top-xs-md btn-theme">
+          View all rides
+        </a>
+      </div>
+    </div>
+  </div>
+  {% if content %}
+  <div class="content">
+    <div class="youtube">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/W-0JHYkoJUI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    {{ content }}
+  </div>
+  {% endif %}
+</section>

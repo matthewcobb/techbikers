@@ -1,7 +1,7 @@
 body {
   font-family: 'Rubik', sans-serif;
   font-size: 16px;
-  color: $theme-dark;
+  color: $white-base;
   line-height: 1.5em;
 }
 
@@ -21,7 +21,7 @@ p {
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 40px;
   @include bp(sm) {
     font-size: 64px;
   }
@@ -58,7 +58,7 @@ a {
   line-height: inherit;
   text-decoration: none;
   &:hover {
-    color: $theme-light;
+    color: $theme-fade;
   }
 }
 
