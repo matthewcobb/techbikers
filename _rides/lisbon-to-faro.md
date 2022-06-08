@@ -14,6 +14,8 @@ Join 50 TechBikers from 8-12th September 2022 in our quest to help kids all arou
 
 Join us for 3 days, journey from Algarve to Lisbon, through about 300km of beautiful Portuguese roads. On the way, we will enjoy a couple of boat rides across the Sado and Tejo rivers
 
+\[Join the ride!\]({{ [https://reedsy.typeform.com/to/JYcl6Ahb](https://reedsy.typeform.com/to/JYcl6Ahb "https://reedsy.typeform.com/to/JYcl6Ahb") }}){: class="btn-theme"}
+
 ## The logistics
 
 The ride is fully paid by our sponsors. It will be fully-supported and excellently catered by [L'Échappée Portugal](https://echappee-portugal.com). Here's what's included:
@@ -49,5 +51,3 @@ TechBikers' selected charity is [**Room to Read**](https://www.roomtoread.org). 
 The kind sponsors and supporters for this ride:
 
 [**Reedsy**](https://reedsy.com) — a community of 1,000,000 authors and freelance publishing professionals, turning ideas into beautiful books.
-
-\[Join the ride!\]({{ [https://reedsy.typeform.com/to/JYcl6Ahb](https://reedsy.typeform.com/to/JYcl6Ahb "https://reedsy.typeform.com/to/JYcl6Ahb") }}){: class="btn-theme"}
