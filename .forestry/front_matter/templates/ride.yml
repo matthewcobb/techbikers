@@ -8,13 +8,13 @@ fields:
 - type: datetime
   name: date
   label: date
+  config:
+    display_utc: false
+    export_format: YYYY-MM-DD
 - name: header_image
   type: file
   config:
     maxSize: 64
   label: header image
 pages:
-- _rides/2020-03-03-paris-to-london.md
-- _rides/2021-05-28-barcealona-to-madrid.md
-- _rides/2023-05-26-lisbon-to-faro.md
 - _rides/copenhagen-to-berlin.md
