@@ -26,6 +26,13 @@ fields:
   config:
     maxSize: 64
   label: header image
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  default: ride
+  hidden: true
 pages:
 - _rides/barcealona-to-madrid.md
 - _rides/copenhagen-to-berlin.md
