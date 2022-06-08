@@ -16,16 +16,6 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
-- name: meta_title
-  type: text
-  config:
-    required: false
-  label: meta-title
-- name: meta_description
-  type: text
-  config:
-    required: false
-  label: meta-description
 - name: header_image
   type: file
   config:
