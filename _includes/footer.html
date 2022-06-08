@@ -13,7 +13,10 @@
   <div class="content space-top-xs-xl">
     <div class="grid justify-between no-response align-middle">
       <div class="cell">
-        TechBikers - ©2022
+        TechBikers ©2022
+        {% for item in site.menus.footer  %}
+          • <a href="{{site.baseurl}}{{item.url}}">{{item.title}}</a>
+        {% endfor %}
       </div>
       <div class="cell-shrink grid no-response gutter-xs-lg">
         <div class="cell">
