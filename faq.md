@@ -1,9 +1,6 @@
 ---
 layout: page
 title: FAQ
-menus:
-  header:
-    weight: 4
 
 ---
 ## FAQ

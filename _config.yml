@@ -34,7 +34,6 @@ sass:
 plugins:
 - jekyll-sitemap
 - jekyll-feed
-- jekyll-menus
 exclude:
 - Gemfile
 - Gemfile.lock
