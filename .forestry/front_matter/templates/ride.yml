@@ -8,20 +8,8 @@ fields:
 - type: datetime
   name: date
   label: date
-- name: meta_title
-  type: text
-  config:
-    required: false
-  label: meta title
-- name: meta_description
-  type: text
-  config:
-    required: false
-  label: meta description
 - name: header_image
   type: file
   config:
     maxSize: 64
   label: header image
-pages:
-- _rides/2014-03-03-paris-to-london-2012.md
