@@ -103,8 +103,11 @@ a {
 article {
   .featured-image {
     border-radius: $_1em;
-    display: inline;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: $_3em 0;
   }
+
   img {
     max-width: 100%;
     border-radius: 4px;
