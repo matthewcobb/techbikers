@@ -50,4 +50,4 @@ The kind sponsors and supporters for this ride:
 
 [**Reedsy**](https://reedsy.com) — a community of 1,000,000 authors and freelance publishing professionals, turning ideas into beautiful books.
 
-\[Apply to join!\]({{ [https://reedsy.typeform.com/to/JYcl6Ahb](https://reedsy.typeform.com/to/JYcl6Ahb "https://reedsy.typeform.com/to/JYcl6Ahb") }}){: class="btn-theme"}
+\[Join the ride!\]({{ [https://reedsy.typeform.com/to/JYcl6Ahb](https://reedsy.typeform.com/to/JYcl6Ahb "https://reedsy.typeform.com/to/JYcl6Ahb") }}){: class="btn-theme"}
