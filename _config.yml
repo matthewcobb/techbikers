@@ -8,7 +8,7 @@ collections:
   rides:
     title: Rides
     output: true
-    permalink: /:collection/:title/
+    permalink: /:collection/:title-:year/
   posts:
     title: Posts
     output: true
