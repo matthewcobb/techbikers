@@ -15,7 +15,7 @@ fields:
 - name: duration
   type: number
   label: duration
-  description: ''
+  description: Number of days
   default: 0
   required: true
   config:
