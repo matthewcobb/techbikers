@@ -86,6 +86,8 @@ Yes, you absolute gold star. The full cost per rider is about €800, so the clo
 
 Organizing the ride costs money, and the rider contribution only covers part of the full cost of €800. If you cancel after you've signed up, we won't be able to refund your contribution and we will require you to raise the €400 minimum donation for Room to Read regardless. If you find a replacement rider, that's fine too, but this is your responsibility.
 
+***
+
 ## Terms & Conditions
 
 1. For this challenge TechBikers require a minimum registration fee of €400, and a maximum optional fee of €800. This will cover full costs, meaning more corporate sponsor money can go to Room to Read. Should you have to withdraw, there will be no refund payable to you as your sponsorship was raised for charitable purposes. You can nominate a replacement rider.
