@@ -1,8 +1,8 @@
 ---
 layout: ride
 duration: 2
-title: "\U0001F1FA\U0001F1F8 Napa to San Francisco"
-date: '2019-06-07'
+title: "\U0001F1E6\U0001F1F9 Vienna to Budapest"
+date: '2019-04-26'
 header_image: ''
 
 ---
