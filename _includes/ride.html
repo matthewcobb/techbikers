@@ -4,8 +4,8 @@
 
 <div class="panel grid align-middle post space-bottom-xs-md {% if posttime > nowunix %}active{% endif %}">
   <div class="cell">
-    {% if ride.upcoming %}
-      <p class="text-base">UPCOMING</p>
+    {% if posttime > nowunix %}
+      <p class="text-light">UPCOMING</p>
     {% endif %}
     <h3 class="space-top-xs-none">
       <a href="{{ site.baseurl }}{{ ride.url }}">{{ ride.title }} →</a>
