@@ -1,6 +1,6 @@
 ---
 layout: index
-title: index
+title: Index
 subheading: Ditch the laptop & get out on your bike
 content: |-
   ## Our mission
