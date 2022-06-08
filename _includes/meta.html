@@ -16,20 +16,20 @@
 <meta name="author" content="{{ site.name }}" />
 
 {% if page.title %}
-<meta property="og:locale" content="en_US" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="{{ page.meta-title }}" />
-<meta property="og:description" content="{{ page.meta-description }}" />
-<meta property="og:url" content="https://www.fundraisingfieldguide.com" />
-<meta property="og:site_name" content="Fundraising Field Guide" />
-<meta property="og:image" content="https://www.fundraisingfieldguide.com/images/og_image.jpg"/>
+  <meta property="og:locale" content="en_UK" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:description" content="{{ page.description }}" />
+  <meta property="og:url" content="{{ site.url }}" />
+  <meta property="og:site_name" content="{{ site.title }}" />
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/images/og.jpg" />
 
-<meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:title" content="{{ page.title }}" />
-<meta name="twitter:description" content="{{ page.description }}" />
-<meta name="twitter:site" content="@cee" />
-<meta name="twitter:image" content="https://www.fundraisingfieldguide.com/images/og_image.jpg" />
-<meta name="twitter:creator" content="@cee">
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="twitter:title" content="{{ page.title }}" />
+  <meta name="twitter:description" content="{{ page.description }}" />
+  <meta name="twitter:site" content="@techbikers" />
+  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/images/og.jpg" />
+  <meta name="twitter:creator" content="@techbikers">
 {% endif %}
 
 <!-- Favicons -->
