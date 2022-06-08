@@ -28,6 +28,7 @@ fields:
     maxSize: 64
   label: header image
 pages:
+- _rides/barcealona-to-madrid.md
 - _rides/copenhagen-to-berlin.md
 - _rides/lisbon-to-faro.md
 - _rides/paris-to-london.md
