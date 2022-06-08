@@ -1,7 +1,7 @@
 ---
 title: "\U0001F1E9\U0001F1F0 Copenhagen to Berlin"
-date: 2019-09-08
+date: 2019-09-04
 header_image: ''
-duration: 3
+duration: 2
 
 ---
