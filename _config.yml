@@ -3,6 +3,7 @@ title: TechBikers
 timezone: UTC
 name: TechBikers
 description: Ditch the laptop & get on your bike
+footer_cta: Join us on our next ride!
 collections:
   rides:
     title: Rides
@@ -16,6 +17,7 @@ collections:
     title: Uploads
     output: true
 donation_url: https://www.justgiving.com/fundraising/fundraisingfieldguide-charity-3
+application_url: https://www.justgiving.com/fundraising/fundraisingfieldguide-charity-3
 domain: matthewcobb.github.io
 url:  https://matthewcobb.github.io
 baseurl: /techbikers

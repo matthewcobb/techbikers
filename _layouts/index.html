@@ -6,9 +6,15 @@ layout: default
   {% include nav.html %}
   <div class="content">
     <div class="header-text text-center">
-      <h1 class="text-logo">Tech<span class="text-cta">Bikers</span></h1>
-      <p class="large">Ditch the laptop & get out on your&nbsp;bike!</p>
-      <a class="space-top-xs-md btn-impact btn-theme">Donate now</a>
+      <h1 class="text-logo">
+        Tech<span class="text-cta">Bikers</span>
+      </h1>
+      <p class="large">
+        {{ site.description }}
+      </p>
+      <a href="{{ site.donation_url }}" target="_blank" class="space-top-xs-md btn-impact btn-theme">
+        Donate now
+      </a>
     </div>
   </div>
   <div class="tree right"></div>
@@ -21,21 +27,27 @@ layout: default
 
 <section id="main" role="main" class="row-dark flush-top">
   <div class="content">
-    <h2>Our mission</h2>
-    <p class="space-bottom-xs-lg">
-      Techbikers is a collaboration of the London tech startup community to help children in need by supporting literacy charity Room to Read. Since 2012 over 300 tech professionals – including start-ups, venture capitalists and executives have cycled 960km in three Paris to London rides to raise money for this fantastic charity.
-    </p>
+    <div class="space-bottom-xs-lg">
+      {{ content }}
+    </div>
     <div class="grid">
       <div class="cell">
-        <h2 class="text-impact">365</h2>
+        <h2 class="text-impact">
+          {{ page.cyclists }}
+        </h2>
         <p>Cyclists</p>
       </div>
       <div class="cell">
-        <h2 class="text-impact">£304<span class="text-light">k</span></h2>
+        <h2 class="text-impact">
+          {{ page.raised }}<span class="text-light">k</span>
+        </h2>
         <p>Raised since 2012</p>
       </div>
       <div class="cell">
-        <h2 class="text-impact">1600<span class="text-light">km</span></h2>
+        <h2 class="text-impact">
+          {{ page.ridden }}
+          <span class="text-light">km</span>
+        </h2>
         <p>Ridden</p>
       </div>
     </div>
@@ -58,7 +70,7 @@ layout: default
     <div class="youtube">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/W-0JHYkoJUI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    {{ content }}
+    {{ page.sponsors | markdownify }}
   </div>
   {% endif %}
 </section>

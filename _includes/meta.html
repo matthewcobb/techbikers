@@ -1,3 +1,12 @@
+<title>
+  {% if page.meta_title %}
+    {{ page.meta_title }} –
+  {% elsif page.title %}
+    {{ page.title }} –
+  {% endif %}
+  {{ site.name }}
+</title>
+
 <meta charset="utf-8" />
 <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -9,8 +18,8 @@
 {% if page.title %}
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="{{ page.title }}" />
-<meta property="og:description" content="{{ page.description }}" />
+<meta property="og:title" content="{{ page.meta-title }}" />
+<meta property="og:description" content="{{ page.meta-description }}" />
 <meta property="og:url" content="https://www.fundraisingfieldguide.com" />
 <meta property="og:site_name" content="Fundraising Field Guide" />
 <meta property="og:image" content="https://www.fundraisingfieldguide.com/images/og_image.jpg"/>
