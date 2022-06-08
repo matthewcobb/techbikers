@@ -8,13 +8,16 @@ fields:
 - type: datetime
   name: date
   label: date
-- name: upcoming
-  type: boolean
-  label: Upcoming
-  description: Mark this as the next upcoming event
-- type: text
-  name: layout
-  label: layout
+- name: meta_title
+  type: text
+  config:
+    required: false
+  label: meta title
+- name: meta_description
+  type: text
+  config:
+    required: false
+  label: meta description
 - name: header_image
   type: file
   config:
