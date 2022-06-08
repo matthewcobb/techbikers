@@ -75,19 +75,21 @@ a {
 }
 
 .text-logo {
-  font-family: 'Carter One';
   font-size: 40px;
+  font-style: italic;
   @include bp(sm) {
-    font-size: 64px;
+    font-size: 72px;
   }
 }
 
 .text-cta {
   color: $theme-fade;
 }
+
 .text-base {
   color: $theme-base;
 }
+
 .text-impact {
   font-size: 64px;
   margin-bottom: 0;
@@ -137,4 +139,6 @@ article {
   h1, h2 {
     margin-bottom: $_2em;
   }
+
+  p + h2, p + h3, {}
 }

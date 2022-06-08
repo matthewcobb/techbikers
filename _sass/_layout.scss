@@ -63,7 +63,7 @@ header {
   &.index {
     .header-text {
       max-width: 600px;
-      margin: $_4em auto 250px;
+      margin: $_6em auto 220px;
       @include bp(sm) {
         margin: $_8em auto 350px;
       }
@@ -76,7 +76,7 @@ header {
     position: absolute;
     top: 0;
     background: url("images/header.svg") no-repeat;
-    background-size: 1500px;
+    background-size: 1300px;
     background-position: center 101%;
     z-index: -1;
     @include bp(sm){
@@ -161,13 +161,17 @@ header {
     box-sizing: border-box;
     z-index: 10;
     padding: $_1em $_1em $_1em $_2em;
-    @include bp(sm) {
-      padding: $_2em $_3em;
-    }
     display: flex;
     align-items: center;
     justify-content: space-between;
-    a {
+    @include bp(sm) {
+      padding: $_2em $_3em;
+    }
+
+    img {
+      vertical-align: middle;
+    }
+    .nav-link {
       font-size: 18px;
       text-decoration: none;
       font-weight: 500;

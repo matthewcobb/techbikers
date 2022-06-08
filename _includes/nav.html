@@ -1,19 +1,31 @@
 <nav>
-  <h3 class=" space-bottom-xs-none space-top-xs-none">
-    <a href="{{ site.baseurl }}/">TECH<span class="text-cta">BIKERS</span></a>
-  </h3>
+  <div>
+    <a href="{{ site.baseurl }}/">
+      {% if page.layout == "index" %}
+        <image src="{{ site.baseurl }}/images/logo.svg" width="120" />
+      {% else %}
+        <image src="{{ site.baseurl }}/images/logo-white.svg" width="120" />
+      {% endif %}
+    </a>
+  </div>
+
+
   <div class="grid align-middle gutter-xs-lg">
     {% for item in site.data.nav.header %}
       <div class="hidden-until-sm">
-        {% if page.url contains item.url %}
-          <a href="{{site.baseurl}}{{item.url}}" class="active">{{item.title}}</a>
+        {% if item.url != "/" and page.url contains item.url %}
+          <a href="{{site.baseurl}}{{item.url}}" class="nav-link active">{{item.title}}</a>
+        {% elsif  item.url == "/" and page.layout == "index" %}
+          <a href="{{site.baseurl}}{{item.url}}" class="nav-link active">{{item.title}}</a>
         {% else %}
-          <a href="{{site.baseurl}}{{item.url}}">{{item.title}}</a>
+          <a href="{{site.baseurl}}{{item.url}}" class="nav-link">{{item.title}}</a>
         {% endif %}
       </div>
     {% endfor %}
     <div>
-      <a href="{{site.application_url}}" target="_blank" class="btn-theme btn-sm">Join in</a>
+      <a href="{{site.application_url}}" target="_blank" class="btn-theme btn-sm">
+        Join in
+      </a>
     </div>
  </div>
 </nav>
