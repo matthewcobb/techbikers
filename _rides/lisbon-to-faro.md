@@ -51,3 +51,5 @@ TechBikers' selected charity is [**Room to Read**](https://www.roomtoread.org). 
 The kind sponsors and supporters for this ride:
 
 [**Reedsy**](https://reedsy.com) — a community of 1,000,000 authors and freelance publishing professionals, turning ideas into beautiful books.
+
+[Join the ride!]({{ site.application_url }}){:class="btn-theme" :target="_blank"}
