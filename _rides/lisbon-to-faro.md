@@ -1,5 +1,5 @@
 ---
-title: "\U0001F1F5\U0001F1F9 Lisbon to Faro"
+title: "\U0001F1F5\U0001F1F9 Faro to Lisbon"
 date: '2022-09-08'
 layout: ride
 header_image: ''
