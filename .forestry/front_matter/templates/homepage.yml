@@ -7,16 +7,6 @@ fields:
   config:
     required: true
   label: title
-- type: text
-  name: meta_title
-  label: meta-title
-  config:
-    required: true
-- name: meta_description
-  type: text
-  config:
-    required: true
-  label: meta-description
 - name: cyclists
   type: number
   label: cyclists
