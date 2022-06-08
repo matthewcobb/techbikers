@@ -10,11 +10,15 @@ duration: 3
 
 Join 50 TechBikers from 8-12th September 2022 in our quest to help kids all around the world get an education by raising €50k for Room to Read!
 
+***
+
 ## The ride
 
 Join us for a 3-day journey from Algarve to Lisbon, through about 300km of beautiful Portuguese roads. On the way, we will enjoy a couple of boat rides across the Sado and Tejo rivers
 
 [Join the ride!]({{ site.application_url }}){:class="btn-theme" :target="_blank"}
+
+***
 
 ## The logistics
 
@@ -34,9 +38,11 @@ The ride is fully paid by our sponsors. It will be fully-supported and excellent
 
 Note: flights into Faro and out of Lisbon aren't included.
 
+***
+
 ## The Requirements
 
-To join this trip, you must raise at £500 for Room to Read (read below).
+To join this trip, you must raise at €400 for Room to Read (read below).
 
 ***
 
