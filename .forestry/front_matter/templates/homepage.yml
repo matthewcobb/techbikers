@@ -8,11 +8,11 @@ fields:
     required: true
   label: title
 - type: text
-  name: meta-title
+  name: meta_title
   label: meta-title
   config:
     required: true
-- name: meta-description
+- name: meta_description
   type: text
   config:
     required: true
