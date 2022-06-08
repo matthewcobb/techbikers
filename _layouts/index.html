@@ -54,14 +54,15 @@ layout: default
     </div>
     <div class="posts space-top-xs-lg space-bottom-xs-xl">
       <h2 class="space-bottom-xs-md">
-        🚴 Our rides
+        🚴 Recent rides
       </h2>
-      {% for ride in site.rides reversed %}
+      {% assign rides = site.rides sort: 'date' | reverse %}
+      {% for ride in rides limit: 6 %}
         {% include ride.html %}
       {% endfor %}
       <div class="text-center">
         <a href="{{ site.baseurl }}/rides/" class="space-top-xs-md btn-theme">
-          View all rides
+          View all rides ({{ site.rides.size }})
         </a>
       </div>
     </div>
