@@ -29,7 +29,8 @@
 }
 
 // Define button colors
-.btn-theme      {@include makebutton($theme-fade, $theme-2fade, $white-base);}
+.btn-theme      {@include makebutton($theme-fade, $theme-light, $white-base);}
+.btn-theme-dark {@include makebutton($theme-dark, $theme-heavy, $white-base);}
 
 // Button states
 .btn-full {

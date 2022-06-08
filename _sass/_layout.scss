@@ -26,6 +26,8 @@ html, body {
 
 section {
   padding: $_3em 0;
+  background-color: $white-base;
+  color: $theme-dark;
   @include bp(sm) {
     padding: $_8em 0;
   }
@@ -35,9 +37,9 @@ section {
   &.flush-top {
     padding-top: 0;
   }
-  &.light {
-    background: $white-base;
-    color: $theme-dark;
+  &.row-dark {
+    background: $theme-dark;
+    color: $white-base;
   }
 }
 
@@ -152,7 +154,7 @@ header {
 
 
   &.dark {
-    background: $theme-heavy;
+    background: $theme-dark;
     color: $white-base;
   }
 

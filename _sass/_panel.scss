@@ -6,9 +6,6 @@
   .panel-body {
 
   }
-  &:hover {
-    border: 4px solid $theme-2fade;
-  }
   &.active {
     background: $theme-2fade;
     border: 4px solid $theme-fade;

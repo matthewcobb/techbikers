@@ -3,8 +3,6 @@ layout: page
 title: FAQ
 
 ---
-## FAQ
-
 ### Do I have to be an expert cyclist?
 
 Absolutely not. We want the group of riders to be as diverse as possible, and saying you're a Lycra Goddess/God won't make it any likelier that you'll get accepted. What we care about is the TechBikers spirit, and that you're excited about raising for Room to Read and connecting with likeminded folk.

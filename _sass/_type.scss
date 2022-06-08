@@ -14,10 +14,16 @@ h1, h2, h3, h4, h5 {
   margin-bottom: $_1em;
 }
 
-p {
+p, ul, ol {
   font-size: 18px;
   line-height: 1.6em;
   margin: 0 0 $_1em 0;
+  a {
+    color: $theme-fade;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 h1 {
@@ -123,19 +129,15 @@ article {
     @include bp(sm) {
       font-size:20px;
     }
-    a {
-      text-decoration: underline;
-      &:hover {
-        color: $theme-fade;
-      }
-    }
   }
+
   hr {
     margin: $_5em 0;
     border: none;
     background: $grey-fade;
     height: 2px;
   }
+
   h1, h2 {
     margin-bottom: $_2em;
   }
