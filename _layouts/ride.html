@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+
+{% assign duration = page.duration | times: 86400 %}
+
 <header class="dark">
   {% include nav.html %}
 </header>
@@ -9,11 +12,16 @@ layout: default
   <div class="content">
     <article class="post">
       <div class="text-light space-bottom-xs-md">
-        <a href="{{ site.baseurl }}/rides">← Back</a> – Posted on {{ page.date | date: "%B %e, %Y" }}
+        <a href="{{ site.baseurl }}/rides">← Back</a>
       </div>
-      <h1 class="space-bottom-xs-sm">
+
+      <h1>
         {{ page.title }}
       </h1>
+
+      <h3 class="space-top-xs-none space-bottom-xs-lg">
+        {{ page.date | date: "%d %b" }} - {{ page.date | date: "%s" | plus: duration | date: "%d %b %Y"}}
+      </h3>
 
       {% if page.header_image.size  > 2 %}
       <div class="featured-image">

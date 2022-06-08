@@ -1,5 +1,6 @@
 {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
 {% capture posttime %}{{ride.date | date: '%s'}}{% endcapture %}
+{% assign duration = ride.duration | times: 86400 %}
 
 <div class="panel grid align-middle post space-bottom-xs-md {% if posttime > nowunix %}active{% endif %}">
   <div class="cell">
@@ -10,7 +11,7 @@
       <a href="{{ site.baseurl }}{{ ride.url }}">{{ ride.title }} →</a>
     </h3>
     <p class="text-light space-bottom-xs-none">
-      {{ ride.date | date: "%Y" }}
+      {{ ride.date | date: "%d %b" }} - {{ ride.date | date: "%s" | plus: duration | date: "%d %b %Y"}}
     </p>
   </div>
   <div class="cell-shrink">

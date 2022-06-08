@@ -1,6 +1,6 @@
 ---
 title: "\U0001F1F5\U0001F1F9 Lisbon to Faro"
-date: 2022-09-08T13:00:00.000+00:00
+date: 2022-09-08
 layout: ride
 header_image: ''
 duration: 3
