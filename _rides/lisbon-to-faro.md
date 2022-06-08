@@ -8,7 +8,7 @@ duration: 3
 ---
 ## Put down your laptop and pick up a bike this September
 
-Join 50 TechBikers from 8-12th September 2022 in our quest to help kids all around the world get an education by raising €50k for Room to Read!
+Join 50 TechBikers from 8-11th September 2022 in our quest to help kids all around the world get an education by raising €50k for Room to Read!
 
 ***
 
@@ -25,7 +25,7 @@ Join us for a 3-day journey from Algarve to Lisbon, through about 300km of beaut
 The ride is fully paid by our sponsors. It will be fully-supported and excellently catered by [L'Échappée Portugal](https://echappee-portugal.com). Here's what's included:
 
 * Airport transfers from Faro airport to faro hotel on the 8th sept
-* Airport transfers from Lisbon to Lisbon airport on the 12th
+* Airport transfers from Lisbon to Lisbon airport on the 11th
 * Accommodations in Faro 8th sept, Castro Verde 9th sept and Setúbal 10th sept (3 nights included).
 * Accommodation 3 star or above.
 * Carbon road bike hire (please note helmet are not included)
