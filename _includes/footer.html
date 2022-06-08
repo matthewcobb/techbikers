@@ -14,7 +14,7 @@
     <div class="grid justify-between no-response align-middle">
       <div class="cell">
         TechBikers ©2022
-        {% for item in site.menus.footer  %}
+        {% for item in site.data.nav.footer  %}
           • <a href="{{site.baseurl}}{{item.url}}">{{item.title}}</a>
         {% endfor %}
       </div>

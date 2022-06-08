@@ -1,8 +1,12 @@
-- title: About
-  url: /about/
-- title: Rides
-  url: /rides/
-- title: Blog
-  url: /posts/
-- title: FAQ
-  url: /faq/
+header:
+  - title: About
+    url: /about/
+  - title: Rides
+    url: /rides/
+  - title: Blog
+    url: /posts/
+  - title: FAQ
+    url: /faq/
+footer:
+  - title: Terms
+    url: /terms/
