@@ -11,9 +11,9 @@ sponsors: "## \U0001F64C\U0001F3FC Sponsors\n\nThe kind sponsors and supporters 
 meta_title: TechBikers
 meta_description: 'Techbikers is a collaboration of the London tech startup community
   to help children in need by supporting literacy charity Room to Read. '
-cyclists: 365
-raised: "£304"
-ridden: 1600
+cyclists: 1000
+raised: "£700"
+ridden: 6000
 
 ---
 ## Our mission
