@@ -18,4 +18,4 @@ ridden: 1600
 ---
 ## Our mission
 
-Techbikers is a collaboration of the London tech startup community to help children in need by supporting literacy charity Room to Read. Since 2012 over 300 tech professionals – including start-ups, venture capitalists and executives have cycled 960km in three Paris to London rides to raise money for this fantastic charity.
+Techbikers is a collaboration of the London tech startup community to help children in need by supporting literacy charity Room to Read. Since 2012 over 300 tech professionals — including startups, venture capitalists and executives have cycled 960km in three Paris to London rides to raise money for this fantastic charity.
