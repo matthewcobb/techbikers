@@ -8,21 +8,21 @@ collections:
   rides:
     title: Rides
     output: true
-    permalink: /:collection/:title-:year/
+    permalink: "/:collection/:title/"
   posts:
     title: Posts
     output: true
-    permalink: /:collection/:title/
+    permalink: "/:collection/:title/"
   uploads:
     title: Uploads
     output: true
 future: true
-donation_url: https://www.justgiving.com/fundraising/fundraisingfieldguide-charity-3
-application_url: https://www.justgiving.com/fundraising/fundraisingfieldguide-charity-3
+donation_url: https://www.roomtoread.org
+application_url: https://www.roomtoread.org
 domain: matthewcobb.github.io
-url:  https://matthewcobb.github.io
-baseurl: /techbikers
-permalink: /:title/
+url: https://matthewcobb.github.io
+baseurl: "/techbikers"
+permalink: "/:title-:year/"
 version: v1.0.0
 kramdown:
   input: GFM
@@ -30,7 +30,7 @@ kramdown:
   syntax_highlighter_opts:
     css_class: highlight
 sass:
-  style: :compressed
+  style: ":compressed"
 plugins:
 - jekyll-sitemap
 - jekyll-feed
