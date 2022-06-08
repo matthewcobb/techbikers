@@ -16,6 +16,7 @@ collections:
   uploads:
     title: Uploads
     output: true
+future: true
 donation_url: https://www.justgiving.com/fundraising/fundraisingfieldguide-charity-3
 application_url: https://www.justgiving.com/fundraising/fundraisingfieldguide-charity-3
 domain: matthewcobb.github.io

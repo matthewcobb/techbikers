@@ -2,7 +2,7 @@
 title: "\U0001F389 Watch the Recorded Q&A Launch Event"
 date: 2021-05-25T13:10:00.000+00:00
 layout: post
-featured_image: ''
+header_image: ''
 
 ---
 On June 1st 2021, we held the Book's launch event where we unpacked the new ideas and strategies included in this second edition of the book. Alongside me, our guests included:

@@ -1,4 +1,7 @@
-<div class="panel grid align-middle post space-bottom-xs-md {% if ride.upcoming %}active{% endif %}">
+{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+{% capture posttime %}{{ride.date | date: '%s'}}{% endcapture %}
+
+<div class="panel grid align-middle post space-bottom-xs-md {% if posttime > nowunix %}active{% endif %}">
   <div class="cell">
     {% if ride.upcoming %}
       <p class="text-base">UPCOMING</p>

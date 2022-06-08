@@ -2,7 +2,7 @@
 layout: post
 title: "\U0001F5E1 Resurgo Spear"
 date: 2021-05-16 23:00:00 +0000
-featured_image: "/uploads/0-uhqnvvqt4u55fahy.png"
+header_image: "/uploads/0-uhqnvvqt4u55fahy.png"
 
 ---
 Whilst the focus of the Fundraising Field Guide Book is to help clarify the fundraising challenges and process for high growth early-stage tech startups, there are many other forms of praise-worthy entrepreneurship. Some non-tech startups are doing very amazing things, particularly in the realm of social entrepreneurship and social development. In particular, I’d like to highlight the work of [Resurgo’s Spear Programme](https://resurgo.org.uk/spear-programme/the-spear-programme/) in empowering youth.
