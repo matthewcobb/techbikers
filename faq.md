@@ -22,7 +22,7 @@ It's a fully catered, fully organised weekend. Pretty much the only thing we don
 
 ### Can I pay more than €400 to contribute to the ride?
 
-Yes, you absolute gold star. The full cost per rider is about £800, so the closer you get to this amount, the more of the leftover money we can add to the pot for Room to Read. We love you. No seriously, we do. In a non-creepy way.
+Yes, you absolute gold star. The full cost per rider is about €800, so the closer you get to this amount, the more of the leftover money we can add to the pot for Room to Read. We love you. No seriously, we do. In a non-creepy way.
 
 ### What if I can't make it last minute?
 
