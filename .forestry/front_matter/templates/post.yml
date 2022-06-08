@@ -1,4 +1,14 @@
 ---
 label: Post
 hide_body: false
-fields: []
+fields:
+- name: meta_title
+  type: text
+  config:
+    required: false
+  label: meta-title
+- name: meta_description
+  type: text
+  config:
+    required: false
+  label: meta-description
