@@ -54,7 +54,7 @@ TechBikers' selected charity is [**Room to Read**](https://www.roomtoread.org). 
 
 ***
 
-## Sponsors
+## Our sponsors
 
 The kind sponsors and supporters for this ride:
 

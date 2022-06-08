@@ -17,6 +17,31 @@ fields:
   config:
     required: true
   label: meta-description
+- name: cyclists
+  type: number
+  label: cyclists
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: raised
+  type: text
+  config:
+    required: false
+  label: raised
+- name: ridden
+  type: number
+  label: ridden
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - name: sponsors
   type: textarea
   default: ''
