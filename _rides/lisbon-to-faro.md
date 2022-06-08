@@ -36,7 +36,7 @@ Note: flights into Faro and out of Lisbon aren't included.
 
 ## The Requirements
 
-To join this trip, you must raise at £500 for Room to Read (read below).
+To join this trip, you must raise at €500 for Room to Read (read below).
 
 ***
 
