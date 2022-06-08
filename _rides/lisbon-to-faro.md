@@ -6,41 +6,46 @@ header_image: ''
 duration: 3
 
 ---
+## Put down your laptop and pick up a bike this September
 
-\- airport transfers from Faro airport to faro hotel on the 8th sept
+Join 50 TechBikers from 8-12th September 2022 in our quest to help kids all around the world get an education by raising €50k for Room to Read!
 
-\- airport transfers from Lisbon to Lisbon airport on the 11th or 12th
+## The ride
 
-\- accommodation faro 8th sept , Castro Verde 9th and Setúbal 10th sept, (3 nights included). If people would like accommodation on a 4th night in Lisbon we can add this for an additional charge or I can recommend and you book direct)
+Join us for 3 days, journey from Algarve to Lisbon, through about 300km of beautiful Portuguese roads. On the way, we will enjoy a couple of boat rides across the Sado and Tejo rivers 
 
-Accommodation 3 star or above.
+## The logistics
 
-\- Carbon road bike hire (please note pedals and helmet are not included)
+The ride is fully paid by our sponsors. It will be fully-supported and excellently catered by [L'Échappée Portugal](https://echappee-portugal.com). Here's what's included:
 
-\- Transport of hire bikes to Faro and back from Lisbon
+* Airport transfers from Faro airport to faro hotel on the 8th sept
+* Airport transfers from Lisbon to Lisbon airport on the 12th
+* Accommodations in Faro 8th sept, Castro Verde 9th sept and Setúbal 10th sept (3 nights included).
+* Accommodation 3 star or above.
+* Carbon road bike hire (please note helmet are not included)
+* 2 support vehicles with mechanical support
+* 3 guides (ie 3 separate ability groups)
+* Photos and Drone footage
+* Civil Liability insurance
+* Breakfast, lunch, water and ride snacks (dinners not included)
+* GPX files in advance
 
-\- 2 support vehicles with mechanical support
+Note: flights into Faro and out of Lisbon aren't included.
 
-\- 3 guides (ie 3 separate ability groups)
+## The Requirements
 
-\- Photos and Drone footage
+To join this trip, you must raise at £500 for Room to Read (read below).
 
-\- Civil Liability insurance
-
-\- breakfast, lunch, water and ride snacks (dinner not included but I will organise and reserve for the group)
-
-\- GPX files in advance
-
-3 days of cycling - roughly 100km, 110km with a boat across to Setúbal (cost included), then 95 km with a boat (cost included) across the Tejo at the end into Lisbon!
+***
 
 ## The Charity
 
-TechBikers' selected charity is [Room to Read](https://www.roomtoread.org). World change starts with educated children. In fact, if every child received an education, 171 million people would be lifted out of poverty. Room to Read is one of the foremost charities making this happen.
+TechBikers' selected charity is [**Room to Read**](https://www.roomtoread.org). World change starts with educated children. In fact, if every child received an education, 171 million people would be lifted out of poverty. Room to Read is one of the foremost charities making this happen.
 
 ***
 
 ## Sponsors
 
-The kind sponsors and supporters for ride:
+The kind sponsors and supporters for this ride:
 
-[**Reedsy**](https://reedsy.com) **—** 
+[**Reedsy**](https://reedsy.com) — a community of 1,000,000 authors and freelance publishing professionals, turning ideas into beautiful books.
