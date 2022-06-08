@@ -18,7 +18,7 @@ collections:
     output: true
 future: true
 donation_url: https://www.roomtoread.org
-application_url: https://www.roomtoread.org
+application_url: https://reedsy.typeform.com/to/JYcl6Ahb
 domain: matthewcobb.github.io
 url: https://matthewcobb.github.io
 baseurl: "/techbikers"
