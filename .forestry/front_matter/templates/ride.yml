@@ -14,4 +14,6 @@ fields:
     maxSize: 64
   label: header image
 pages:
+- _rides/2020-03-03-paris-to-london.md
+- _rides/2021-05-28-barcealona-to-madrid.md
 - _rides/2023-05-26-lisbon-to-faro.md
