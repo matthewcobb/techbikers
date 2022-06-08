@@ -12,3 +12,8 @@ fields:
   config:
     required: false
   label: meta-description
+- name: header_image
+  type: file
+  config:
+    maxSize: 64
+  label: header image
