@@ -56,7 +56,7 @@ layout: default
       <h2 class="space-bottom-xs-md">
         🚴 Recent rides
       </h2>
-      {% assign rides = site.rides sort: 'date' | reverse %}
+      {% assign rides = site.rides | sort: 'date' | reverse %}
       {% for ride in rides limit: 6 %}
         {% include ride.html %}
       {% endfor %}
