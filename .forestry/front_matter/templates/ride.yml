@@ -34,8 +34,8 @@ fields:
   default: ride
   hidden: true
 pages:
-- _rides/barcealona-to-madrid.md
 - _rides/copenhagen-to-berlin.md
 - _rides/faro-to-lisbon-2022.md
 - _rides/paris-to-london.md
+- _rides/perpignan-to-barcelona.md
 - _rides/vienna-to-budapest.md
