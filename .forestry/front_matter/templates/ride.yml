@@ -35,7 +35,7 @@ fields:
   hidden: true
 pages:
 - _rides/copenhagen-to-berlin.md
-- _rides/faro-to-lisbon-2022.md
+- _rides/faro-to-lisbon.md
 - _rides/paris-to-london-2019.md
 - _rides/perpignan-to-barcelona.md
 - _rides/vienna-to-budapest.md
