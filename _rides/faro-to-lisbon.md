@@ -24,7 +24,7 @@ Join us for a 3-day journey from Algarve to Lisbon, through about 300km of beaut
 
 ## The logistics
 
-The ride is fully paid by our sponsors. It will be fully-supported and excellently catered by [L'Échappée Portugal](https://echappee-portugal.com), an organization created by ex-pro cyclist Fiona Hunter Johnston. Here's what's included:
+The ride is fully paid by our sponsors. It will be fully-supported and excellently catered by [L'Échappée Portugal](https://echappee-portugal.com){:target="_blank"}, an organization created by ex-pro cyclist Fiona Hunter Johnston. Here's what's included:
 
 * Airport transfers from Faro airport to faro hotel on the 8th sept
 * Airport transfers from Lisbon to Lisbon airport on the 11th
@@ -50,7 +50,7 @@ To join this trip, you must raise at least €400 for Room to Read, and pay a �
 
 ## The Charity
 
-TechBikers' selected charity is [**Room to Read**](https://www.roomtoread.org). World change starts with educated children. In fact, if every child received an education, 171 million people would be lifted out of poverty. Room to Read is one of the foremost charities making this happen.
+TechBikers' selected charity is [**Room to Read**](https://www.roomtoread.org){:target="_blank"}. World change starts with educated children. In fact, if every child received an education, 171 million people would be lifted out of poverty. Room to Read is one of the foremost charities making this happen.
 
 ***
 
@@ -58,7 +58,7 @@ TechBikers' selected charity is [**Room to Read**](https://www.roomtoread.org). 
 
 The kind sponsors and supporters for this ride:
 
-[**Reedsy**](https://reedsy.com) — a community of 1,000,000 authors and freelance publishing professionals, turning ideas into beautiful books.
+[**Reedsy**](https://reedsy.com){:target="_blank"} — a community of 1,000,000 authors and freelance publishing professionals, turning ideas into beautiful books.
 
 [Join the ride!](https://reedsy.typeform.com/to/JYcl6Ahb){:class="btn-theme" :target="_blank"}
 
