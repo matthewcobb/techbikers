@@ -17,7 +17,7 @@ It's a fully catered, fully organised weekend. Pretty much the only thing we don
 
 ### Can I pay more than the suggested ride contribution?
 
-Yes, you absolute gold star. Half the cost per rider is covered by our partners , so the closer you get to this amount, the more of the leftover money we can add to the pot for Room to Read. We love you. No seriously, we do. In a non-creepy way.
+Yes, you absolute gold star. Half the cost per rider is covered by our partners, so the closer you get to this amount, the more of the leftover money we can add to the pot for Room to Read. We love you. No seriously, we do. In a non-creepy way.
 
 ### What if I can't make it last minute?
 
