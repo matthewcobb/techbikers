@@ -4,8 +4,8 @@ title: TechBikers
 description: TechBikers is a collaboration of the London tech startup community to
   help children in need by supporting literacy charity Room to Read.
 subheading: Ditch the laptop & get out on your bike
-sponsors: "## \U0001F64C\U0001F3FC Sponsors\n\nThe kind sponsors and supporters for
-  our rides are: [Reedsy](https://reedsy.com)"
+sponsors: "## \U0001F64C\U0001F3FC Sponsors1\n\nThe kind sponsors and supporters for
+  our rides are: [Reedsy](https://reedsy.com){:target=\"_blank\"}"
 cyclists: 1000
 raised: "£700"
 ridden: 6000
