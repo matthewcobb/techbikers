@@ -13,4 +13,4 @@ ridden: 6000
 ---
 ## Our mission
 
-Initiatied by Eze Vidra, Techbikers is a collaboration within the London tech startup community aimed at supporting the children’s literacy charity, Room to Read. Since 2012, over 1,000 tech professionals — including startups, venture capitalists and executives — have cycled over 6,000 kilometers for the cause.
+Initiated by Eze Vidra, Techbikers is a collaboration within the London tech startup community aimed at supporting the children’s literacy charity, Room to Read. Since 2012, over 1,000 tech professionals — including startups, venture capitalists and executives — have cycled over 6,000 kilometers for the cause.
