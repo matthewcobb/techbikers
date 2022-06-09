@@ -76,7 +76,7 @@ Yes, you do. This is non-negotiable. **It's the whole reason for the ride**, aft
 
 ### The ride contribution is expensive, can I just not pay it?
 
-It's a fully catered, fully organised weekend. Pretty much the only thing we don't do for you is pedal. We really try to make it as affordable as possible, but it does cost money to get 30 to 50 people on the road safely, and ultimately, we want Room to Read to get as much money as possible. See it as an investment into your network, a somewhat expensive holiday (as if!), or the equivalent of two heavy weekends in London :smirk:
+It's a fully catered, fully organised weekend. Pretty much the only thing we don't do for you is pedal. We really try to make it as affordable as possible, but it does cost money to get 30 to 50 people on the road safely, and ultimately, we want Room to Read to get as much money as possible. See it as an investment into your network, a somewhat expensive holiday (as if!), or the equivalent of two heavy weekends in London 😏
 
 ### Can I pay more than €400 to contribute to the ride?
 
