@@ -21,7 +21,7 @@ donation_url: https://www.roomtoread.org
 application_url: https://reedsy.typeform.com/to/JYcl6Ahb
 domain: matthewcobb.github.io
 url: https://matthewcobb.github.io
-baseurl: "/techbikers"
+baseurl: ""
 permalink: "/:title/"
 version: v1.0.0
 kramdown:
