@@ -24,7 +24,7 @@ Join us for a 3-day journey from Algarve to Lisbon, through about 300km of beaut
 
 ## The logistics
 
-The ride is fully paid by our sponsors. It will be fully-supported and excellently catered by [L'Échappée Portugal](https://echappee-portugal.com). Here's what's included:
+The ride is fully paid by our sponsors. It will be fully-supported and excellently catered by [L'Échappée Portugal](https://echappee-portugal.com), an organization created by ex-pro cyclist Fiona Hunter Johnston. Here's what's included:
 
 * Airport transfers from Faro airport to faro hotel on the 8th sept
 * Airport transfers from Lisbon to Lisbon airport on the 11th
