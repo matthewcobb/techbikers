@@ -1,14 +1,18 @@
 <nav>
-  <div>
-    <a href="{{ site.baseurl }}/">
-      {% if page.layout == "index" %}
-        <image src="{{ site.baseurl }}/images/logo-text.svg" width="120" />
-      {% else %}
-        <image src="{{ site.baseurl }}/images/logo-text-white.svg" width="120" />
-      {% endif %}
-    </a>
+  <div class="logo-container">
+    <div id="burger" class="visible-until-sm space-right-xs-md">
+      <svg width="24" height="18" viewBox="0 0 24 18" xmlns="http://www.w3.org/2000/svg"><path id="burger-fill" d="M22.5 0a1.5 1.5 0 0 1 0 3h-21a1.5 1.5 0 0 1 0-3h21Zm0 7.5a1.5 1.5 0 0 1 0 3h-21a1.5 1.5 0 0 1 0-3h21Zm0 7.5a1.5 1.5 0 0 1 0 3h-21a1.5 1.5 0 0 1 0-3h21Z" fill="#090f29" fill-rule="evenodd"/></svg>
+    </div>
+    <div>
+      <a href="{{ site.baseurl }}/">
+        {% if page.layout == "index" %}
+          <image src="{{ site.baseurl }}/images/logo-text.svg" width="120" />
+        {% else %}
+          <image src="{{ site.baseurl }}/images/logo-text-white.svg" width="120" />
+        {% endif %}
+      </a>
+    </div>
   </div>
-
 
   <div class="grid align-middle gutter-xs-lg">
     {% for item in site.data.nav.header %}
@@ -29,3 +33,26 @@
     </div>
  </div>
 </nav>
+
+<div class="card " id="mobile-nav">
+  <div class="card-content">
+    <div class="card-header text-right">
+      <span class="btn-close btn-theme btn-xs" id="btn-close">
+        <image src="{{ site.baseurl }}/images/close.svg" width="20" />
+      </span>
+    </div>
+
+    <div class="card-body">
+      {% for item in site.data.nav.header %}
+        {% if item.url != "/" and page.url contains item.url %}
+          <a href="{{site.baseurl}}{{item.url}}" class="nav-link active">{{item.title}}</a>
+        {% elsif  item.url == "/" and page.layout == "index" %}
+          <a href="{{site.baseurl}}{{item.url}}" class="nav-link active">{{item.title}}</a>
+        {% else %}
+          <a href="{{site.baseurl}}{{item.url}}" class="nav-link">{{item.title}}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  <div class="card-overlay" id="modal-overlay"></div>
+</div>

@@ -1,0 +1,97 @@
+header {
+  nav {
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 10;
+    padding: $_2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @include bp(sm) {
+      padding: $_2em $_3em;
+    }
+
+    img {
+      vertical-align: middle;
+    }
+    .nav-link {
+      font-size: 18px;
+      text-decoration: none;
+      font-weight: 500;
+      padding: $_2em 0;
+      &.active {
+        border-bottom: 4px solid $theme-fade;
+      }
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 999;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  transform: translateZ(0);
+
+  &.open {
+    opacity: 1;
+    pointer-events: initial;
+    .card-content {
+      bottom: 0;
+    }
+  }
+
+  .card-content {
+    background-color: $theme-heavy;
+    border-top-left-radius: $_2em;
+    border-top-right-radius: $_2em;
+    position: absolute;
+    bottom: -10vh;
+    width: 100%;
+    z-index: 1;
+    box-sizing: border-box;
+    transition: bottom 0.2s ease;
+    box-shadow: 0px 0px $_2em rgba(9,15,41,0.8);
+    color: $white-base;
+
+    .card-header {
+      padding: $_2em;
+    }
+
+    .card-body {
+      overflow: scroll;
+      height: 100%;
+      max-height: 70vh;
+      padding: $_2em $_2em $_8em $_2em;
+      .nav-link {
+        display: block;
+        font-size: 20px;
+        padding: $_2em 0;
+
+        font-weight: 500;
+        &.active {
+          color: $theme-fade;
+        }
+      }
+    }
+  }
+  .card-overlay {
+    position: absolute;
+    background: rgba(11,23,31,0.8);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    cursor: pointer;
+  }
+}

@@ -27,7 +27,6 @@
     align-items: flex-end;
   }
 
-
   // TODO improve with variable spacing
   .cell-pad {
     padding:$_2em 0;
@@ -113,18 +112,6 @@
   justify-content: flex-end;
 }
 
-.grid-full-height {
-  height: 100%;
-}
-
-.display-inline {
-  display: inline-block;
-}
-
-.grid-reverse-order {
-  flex-direction: row-reverse;
-}
-
 .overflow-hidden {
   overflow:hidden;
   position: relative;
@@ -144,28 +131,6 @@
       }
     }
   }
-
-  @each $breakpoint, $value in $breakpoints {
-    .gutter-v-#{$breakpoint}-#{$size} {
-      @include bp($breakpoint){
-        margin:(-$space) 0 (-$space) 0 !important;
-        > :nth-child(n) {
-          box-sizing: border-box;
-          padding-bottom: $space;
-          padding-top: $space;
-        }
-      }
-    }
-  }
-
-  .gutter-#{$size}{
-    margin: (-$space) 0 0 (-$space);
-    > :nth-child(n) {
-      padding-top: $space;
-      padding-left: $space;
-    }
-  }
-
 }
 
 @each $size, $spacing in $sizes {
@@ -195,20 +160,6 @@
       > .cell-#{$size}-third { flex: none; width:100%; box-sizing: border-box; @include bp($size){ width: 33% !important; } }
       > .cell-#{$size}-fifth { flex: none; width:100%; box-sizing: border-box; @include bp($size){ width: 20% !important; } }
       > .cell-#{$size}-sixth { flex: none; width:100%; box-sizing: border-box; @include bp($size){ width: 16.6% !important; } }
-
-      > .cell-#{$size}-shrink { flex:none; width:100%; @include bp($size) { width: auto; flex: 0 1 auto; } }
-
-      &.#{$size}-fit > .cell {
-        @include bp($size) {
-          flex: 1;
-        }
-      }
-
-      &.#{$size}-full > .cell {
-        @include bp($size) {
-          flex: 0 0 100%;
-        }
-      }
     }
 }
 
@@ -330,5 +281,3 @@
 @include makeSpace(md, $_2em);
 @include makeSpace(lg, $_4em);
 @include makeSpace(xl, $_6em);
-@include makeSpace(xxl, $_8em);
-@include makeSpace(xxxl, 100px);
