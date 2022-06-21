@@ -76,6 +76,10 @@ The kind sponsors and supporters for this ride:
 
 Absolutely not. We want the group of riders to be as diverse as possible, and saying you're a Lycra Goddess/God won't make it any likelier that you'll get accepted. What we care about is the TechBikers spirit, and that you're excited about raising for Room to Read and connecting with likeminded folk.
 
+### How many cyclists can attend?
+
+Up to 50 cyclists can join this ride. As part of our selection process, we'll do our best to create the most diverse group. Original fundraising ideas will also be appreciated.
+
 ### I don't think I can raise €400, do I really have to?
 
 Yes, you do. This is non-negotiable. **It's the whole reason for the ride**, after all! But don't worry, we have plenty of tips to help you raise this amount… from bake sales, to email templates and social media promotion. In the words of Bob the Builder(-ish): YES YOU CAN!
