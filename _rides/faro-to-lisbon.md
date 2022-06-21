@@ -16,9 +16,11 @@ Join 50 TechBikers from 8-11th September 2022 in our quest to help kids all arou
 
 ## The ride
 
-Join us for a 3-day journey from Algarve to Lisbon, through about 300km of beautiful Portuguese roads. On the way, we will enjoy a couple of boat rides across the Sado and Tejo rivers
+Join us for a 3-day journey from Algarve to Lisbon, through about 300km of beautiful Portuguese roads. On the way, we will enjoy a couple of boat rides across the Sado and Tejo rivers.
 
 [Join the ride!](https://reedsy.typeform.com/to/JYcl6Ahb){:class="btn-theme" :target="_blank"}
+
+(Deadline: July 17th 2022)
 
 ***
 
