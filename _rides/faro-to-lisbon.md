@@ -38,6 +38,8 @@ The ride will be fully-supported and excellently catered by [L'Échappée Portug
 * Breakfast, lunch, water and ride snacks (dinners not included)
 * GPX files in advance
 
+A full presentation document for the ride is [available here](https://drive.google.com/file/d/1-bvarm3FWggk3c9lgMvOpbJMl6W-O-4_/view?usp=sharing).
+
 Note: flights into Faro and out of Lisbon aren't included.
 
 ***
