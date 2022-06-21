@@ -62,6 +62,10 @@ The kind sponsors and supporters for this ride:
 
 [**Reedsy**](https://reedsy.com) — a community of 1,000,000 authors and freelance publishing professionals, turning ideas into beautiful books.
 
+[**Point Nine**](https://www.pointnine.com) — a seed-stage venture capital firm focused on B2B SaaS and B2B marketplaces. 
+
+[**Eurazeo Venture**](https://www.eurazeo.com/en/businesses/private-equity/venture-capital) — the VC arm of a leading global investment group, with a diversified portfolio of €25.6 billion in assets under management.
+
 [Join the ride!](https://reedsy.typeform.com/to/JYcl6Ahb){:class="btn-theme" :target="_blank"}
 
 ***
