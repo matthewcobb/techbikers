@@ -24,7 +24,7 @@ Join us for a 3-day journey from Algarve to Lisbon, through about 300km of beaut
 
 ## The logistics
 
-The ride will be fully-supported and excellently catered by [L'Échappée Portugal](https://echappee-portugal.com), an organization created by ex-pro cyclist Fiona Hunter Johnston. Here's what's included:
+The ride will be fully-supported and excellently catered by [L'Échappée Portugal](https://echappee-portugal.com){:target="_blank"}, an organization created by ex-pro cyclist Fiona Hunter Johnston. Here's what's included:
 
 * Airport transfers from Faro airport to faro hotel on the 8th sept
 * Airport transfers from Lisbon to Lisbon airport on the 11th
@@ -38,7 +38,7 @@ The ride will be fully-supported and excellently catered by [L'Échappée Portug
 * Breakfast, lunch, water and ride snacks (dinners not included)
 * GPX files in advance
 
-A full presentation document for the ride is [available here](https://drive.google.com/file/d/1-bvarm3FWggk3c9lgMvOpbJMl6W-O-4_/view?usp=sharing).
+A full presentation document for the ride is [available here](https://drive.google.com/file/d/1-bvarm3FWggk3c9lgMvOpbJMl6W-O-4_/view?usp=sharing){:target="_blank"}.
 
 Note: flights into Faro and out of Lisbon aren't included.
 
@@ -52,7 +52,7 @@ To join this trip, you must raise at least €400 for Room to Read, and pay a �
 
 ## The Charity
 
-TechBikers' selected charity is [**Room to Read**](https://www.roomtoread.org). World change starts with educated children. In fact, if every child received an education, 171 million people would be lifted out of poverty. Room to Read is one of the foremost charities making this happen.
+TechBikers' selected charity is [**Room to Read**](https://www.roomtoread.org){:target="_blank"}. World change starts with educated children. In fact, if every child received an education, 171 million people would be lifted out of poverty. Room to Read is one of the foremost charities making this happen.
 
 ***
 
@@ -60,11 +60,11 @@ TechBikers' selected charity is [**Room to Read**](https://www.roomtoread.org). 
 
 The kind sponsors and supporters for this ride:
 
-[**Reedsy**](https://reedsy.com) — a community of 1,000,000 authors and freelance publishing professionals, turning ideas into beautiful books.
+[**Reedsy**](https://reedsy.com){:target="_blank"} — a community of 1,000,000 authors and freelance publishing professionals, turning ideas into beautiful books.
 
-[**Point Nine**](https://www.pointnine.com) — a seed-stage venture capital firm focused on B2B SaaS and B2B marketplaces. 
+[**Point Nine**](https://www.pointnine.com){:target="_blank"} — a seed-stage venture capital firm focused on B2B SaaS and B2B marketplaces.
 
-[**Eurazeo Venture**](https://www.eurazeo.com/en/businesses/private-equity/venture-capital) — the VC arm of a leading global investment group, with a diversified portfolio of €25.6 billion in assets under management.
+[**Eurazeo Venture**](https://www.eurazeo.com/en/businesses/private-equity/venture-capital){:target="_blank"} — the VC arm of a leading global investment group, with a diversified portfolio of €25.6 billion in assets under management.
 
 [Join the ride!](https://reedsy.typeform.com/to/JYcl6Ahb){:class="btn-theme" :target="_blank"}
 
