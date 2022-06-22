@@ -7,7 +7,7 @@ title: Terms
 
 Last updated June 22, 2022
 
-1\. AGREEMENT TO TERMS
+## 1. Agreement to Terms
 
 These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and TechBikers ("Company," “we," “us," or “our”), concerning your access to and use of the [https://techbikers.cc](https://techbikers.cc "https://techbikers.cc") website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”). We are registered in England and have our registered office at 483 Green Lanes, London, London N13 4BS. You agree that by accessing the Site, you have read, understood, and agreed to be bound by all of these Terms of Use. IF YOU DO NOT AGREE WITH ALL OF THESE TERMS OF USE, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SITE AND YOU MUST DISCONTINUE USE IMMEDIATELY.
 
@@ -27,7 +27,7 @@ Provided that you are eligible to use the Site, you are granted a limited licens
 
 ## 3. User Representations
 
-By using the Site, you represent and warrant that:  (1) you have the legal capacity and you agree to comply with these Terms of Use; (2) you are not a minor in the jurisdiction in which you reside; (3) you will not access the Site through automated or non-human means, whether through a bot, script, or otherwise; (4) you will not use the Site for any illegal or unauthorized purpose; and (5) your use of the Site will not violate any applicable law or regulation.
+By using the Site, you represent and warrant that: (1) you have the legal capacity and you agree to comply with these Terms of Use; (2) you are not a minor in the jurisdiction in which you reside; (3) you will not access the Site through automated or non-human means, whether through a bot, script, or otherwise; (4) you will not use the Site for any illegal or unauthorized purpose; and (5) your use of the Site will not violate any applicable law or regulation.
 
 If you provide any information that is untrue, inaccurate, not current, or incomplete, we have the right to suspend or terminate your account and refuse any and all current or future use of the Site (or any portion thereof).
 
