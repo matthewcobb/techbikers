@@ -32,7 +32,7 @@ The ride will be fully-supported and excellently catered by [L'Échappée Portug
 * Airport transfers from Lisbon to Lisbon airport on the 11th
 * Accommodations in Faro 8th sept, Castro Verde 9th sept and Setúbal 10th sept (3 nights included).
 * Accommodation 3 star or above.
-* Carbon road bike hire (please note helmet are not included)
+* Carbon road bike hire (please note helmets are not included)
 * 2 support vehicles with mechanical support
 * 3 guides (ie 3 separate ability groups)
 * Photos and Drone footage
