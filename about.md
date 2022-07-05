@@ -9,4 +9,8 @@ In 2022, [Emmanuel Nataf](https://www.linkedin.com/in/emmanuelnataf/){:target="_
 
 To ensure that the maximum amount of money reaches [Room to Read](https://www.roomtoread.org/){:target="_blank"}, the charity, we cover some of our ride costs with sponsorship. If you work in tech, enjoying cycling and want to make a tangible impact on millions of children and their community, please consider joining our rides.
 
-![](/uploads/whatsapp-image-2022-07-05-at-5-53-15-pm.jpeg)![](/uploads/whatsapp-image-2022-07-05-at-5-53-16-pm.jpeg)![](/uploads/whatsapp-image-2022-07-05-at-5-53-15-pmb.jpeg "Eze Vidra in Nepal")
+![](/uploads/whatsapp-image-2022-07-05-at-5-53-15-pm.jpeg)
+
+![](/uploads/whatsapp-image-2022-07-05-at-5-53-16-pm.jpeg)
+
+![](/uploads/whatsapp-image-2022-07-05-at-5-53-15-pmb.jpeg "Eze Vidra in Nepal")
