@@ -4,6 +4,8 @@ date: '2022-09-08'
 layout: ride
 header_image: ''
 duration: 3
+description: Join 50 entrepreneurs and investors on a 3-day ride and raise funds for
+  Room to Read.
 
 ---
 ## Put down your laptop and pick up a bike this September
