@@ -22,7 +22,7 @@ Join us for a 3-day journey from Algarve to Lisbon, through about 300km of beaut
 
 [Join the ride!](https://reedsy.typeform.com/to/JYcl6Ahb){:class="btn-theme" :target="_blank"}
 
-(Deadline: July 17th 2022)
+(UPDATE July 18th 2022: ride is fully booked but new applications will be added to a waitlist)
 
 ***
 
