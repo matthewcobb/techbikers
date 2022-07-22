@@ -17,11 +17,11 @@ collections:
     title: Uploads
     output: true
 future: true
-donation_url: https://www.roomtoread.org
+donation_url: https://secure.roomtoread.org/page/110115/donate/1
 application_url: https://reedsy.typeform.com/to/JYcl6Ahb
 domain: techbikers.cc
 url: https://techbikers.cc
-baseurl: ""
+baseurl: ''
 permalink: "/:title/"
 version: v1.0.0
 kramdown:
