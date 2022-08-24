@@ -20,9 +20,7 @@ Join 50 TechBikers from 8-11th September 2022 in our quest to help kids all arou
 
 Join us for a 3-day journey from Algarve to Lisbon, through about 300km of beautiful Portuguese roads. On the way, we will enjoy a couple of boat rides across the Sado and Tejo rivers.
 
-[Join the ride!](https://reedsy.typeform.com/to/JYcl6Ahb){:class="btn-theme" :target="_blank"}
-
-(Note: registrations closing soon)
+**REGISTRATIONS ARE NOW CLOSED!**
 
 ***
 
@@ -71,8 +69,6 @@ The kind sponsors and supporters for this ride:
 [**Eurazeo Venture**](https://www.eurazeo.com/en/businesses/private-equity/venture-capital){:target="_blank"} — the VC arm of a leading global investment group, with a diversified portfolio of €25.6 billion in assets under management.
 
 [**Mulebar**](https://www.mulebar.com){:target="_blank"} — an innovative and sustainable sports nutrition company that makes energy gels and bars without preservatives, colorings or additives.
-
-[Join the ride!](https://reedsy.typeform.com/to/JYcl6Ahb){:class="btn-theme" :target="_blank"}
 
 ***
 
