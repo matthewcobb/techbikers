@@ -4,6 +4,9 @@ timezone: UTC
 name: TechBikers
 description: Ditch the laptop & get on your bike
 footer_cta: Join us on our next ride!
+youtube_embed_url: https://www.youtube.com/embed/lVQD8gQz4OE
+donation_url: https://secure.roomtoread.org/page/110115/donate/1
+application_url: https://reedsy.typeform.com/to/JYcl6Ahb
 collections:
   rides:
     title: Rides
@@ -16,14 +19,12 @@ collections:
   uploads:
     title: Uploads
     output: true
-future: true
-donation_url: https://secure.roomtoread.org/page/110115/donate/1
-application_url: https://reedsy.typeform.com/to/JYcl6Ahb
 domain: techbikers.cc
 url: https://techbikers.cc
 baseurl: ''
 permalink: "/:title/"
 version: v1.0.0
+future: true
 kramdown:
   input: GFM
   syntax_highlighter: rouge
