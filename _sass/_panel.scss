@@ -10,6 +10,11 @@
     background: $theme-2fade;
     border: 4px solid $theme-fade;
   }
+  &.lg {
+    @include bp(md) {
+      padding: $_4em;
+    }
+  }
 }
 
 .youtube {
