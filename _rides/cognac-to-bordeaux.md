@@ -6,7 +6,6 @@ description: Join 50 entrepreneurs and investors on a 3-day ride and raise funds
   Room to Read.
 date: '2023-04-13'
 header_image: ''
-published: false
 
 ---
 ## **Are you willing to take risks outside of work? Let’s cycle with TechBikers to find out!**
