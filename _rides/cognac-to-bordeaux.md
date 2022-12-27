@@ -12,7 +12,7 @@ header_image: ''
 
 Join 40+ TechBikers on 13 – 16th April 2023 in our quest to help kids all around the world get an education by raising money for  Room to Read!
 
-![](https://lh3.googleusercontent.com/MaQGvLRMGLKFa2w2W9T1J1xjcLrGcNPzMtcZ27UfXTHa4zgIdMNsoEjsMwhz1PrAhyb4PZAwGtWnGksQOQ9oYAttBYexM45J9PCpql_b9KfEEqsL2eElZL_4-hnW3C-AAF-KWrOHKHoRyLhiNRpv0kTV-WJN-wjYYUC4X5trQlLqJ8d53pW4Qg14623chA =602x275)
+![](/uploads/screenshot-2022-12-27-at-3-34-50-pm.png)
 
 ## **The ride**
 
