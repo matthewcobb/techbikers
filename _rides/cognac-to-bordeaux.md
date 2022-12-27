@@ -90,11 +90,11 @@ Yes, you absolute gold star. The full cost per rider is about €1,050, so the c
 
 If you cancel after you've signed up, we won't be able to refund your contribution and we will require you to raise the €500 minimum donation for Room to Read regardless. If you find a replacement rider, that's fine too, but this is your responsibility.
 
-## Any questions we forgot to answer?
+### Any questions we forgot to answer?
 
 Don’t hesitate to reach out to sdc@daphni.com.
 
-## Still hesitating? Watch these videos
+### Still hesitating? Watch these videos
 
 We've been running TechBikers for a few years now. Here's a video of our ride from [Perpignan to Barcelona](https://www.youtube.com/watch?v=IvjWuYI-Vfg) and another from [Faro to Lisbon](https://www.youtube.com/watch?v=lVQD8gQz4OE). Join us!
 
