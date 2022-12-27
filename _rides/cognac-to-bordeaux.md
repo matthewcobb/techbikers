@@ -105,7 +105,7 @@ We've been running TechBikers for a few years now. Here's a video of our ride fr
 ## Terms & Conditions
 
 1. For this challenge TechBikers require a minimum registration fee of €500, and a maximum optional fee of €800. This will cover full costs, meaning more corporate sponsor money can go to Room to Read. Should you have to withdraw, there will be no refund payable to you as your sponsorship was raised for charitable purposes. You can nominate a replacement rider.
-2. Itineraries, schedules and accommodation may change and other alterations may occur which are beyond the control of TechBikers or L'Échappée Portugal, the ground handlers for the event.
+2. Itineraries, schedules and accommodation may change and other alterations may occur which are beyond the control of TechBikers or Rough Ride Guide, the ground handlers for the event.
 3. TechBikers and our partners are unable to accept liability for any loss or damage; however arising (except for death or personal injury resulting from their own negligence), or for cancellation of the event for any reasons outside their control. In particular (but without limitation) TechBikers and our partners accept no responsibility for the loss of luggage carried for you in support vehicles, which should be adequately covered by your insurance.
 4. All of your sponsorship monies raised will go to Room to Read. The costs of your transport, accommodation, food, transfers, guides and back-up team will be paid to our ride organiser from corporate sponsorship and your registration fee.
 5. You must not suffer from alcohol or drug dependency. You must not have any prior criminal convictions. You must notify us if you are not in compliance with these conditions.
