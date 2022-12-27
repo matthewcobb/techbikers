@@ -39,6 +39,7 @@ fields:
   default: ride
   hidden: true
 pages:
+- _rides/cognac-to-bordeaux.md
 - _rides/copenhagen-to-berlin.md
 - _rides/faro-to-lisbon.md
 - _rides/paris-to-london.md
