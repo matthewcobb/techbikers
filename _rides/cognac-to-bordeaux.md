@@ -50,6 +50,8 @@ Not included:
 * Bike hire
 * 1st night accommodation & breakfast (Thursday)
 
+Additional information can be found in [this presentation document](https://drive.google.com/file/d/19ZfE7lexHVtw4X4kxv5a8YUkIwzBcwRo/view?usp=share_link).
+
 ***
 
 ## The Requirements
