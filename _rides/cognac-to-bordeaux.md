@@ -25,9 +25,9 @@ Book your agenda from Thursday 13th to Sunday 16th of April.
 
 ## **The logistics**
 
-This ride will be supported by Rough Ride Guide, a UK organization represented by Max Darkins and Toby Powell. Find below the details 👇
+This ride will be supported by Rough Ride Guide, a UK organization represented by Max Darkins and Toby Powell.
 
-Price is based on a shared room and includes:
+The price is based on a shared room and includes:
 
 * Bike transfer from and returning to Paris
 * 2 nights (Friday & Saturday) accommodation
@@ -55,7 +55,7 @@ Not included:
 
 ## The Requirements
 
-To join this trip, you must raise at least €500 for Room to Read, and pay a €500 participation fee (half the actual cost of the trip).
+To join us on this trip, you need to contribute 500 € for the participation fee (which is actually half of the cost of the trip, the other half being covered by our sponsors), and raise at least 500 € for  Room to Read.
 
 ***
 
