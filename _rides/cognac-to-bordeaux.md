@@ -11,7 +11,7 @@ layout: ride
 
 ## **Are you willing to take risks outside of work? Let’s cycle with TechBikers to find out!**
 
-Join 40+ TechBikers on 13 – 16th April 2023 in our quest to help kids all around the world get an education by raising money for  Room to Read!![](/screenshot-2022-12-27-at-3-34-50-pm.png)
+Join 40+ TechBikers on 13 – 16th April 2023 in our quest to help kids all around the world get an education by raising money for  Room to Read!![](/uploads/screenshot-2022-12-27-at-3-34-50-pm.png)
 
 ## **The ride**
 

@@ -11,4 +11,4 @@ To ensure that the maximum amount of money reaches [Room to Read](https://www.ro
 
 If you work in tech, enjoying cycling and want to make a tangible impact on millions of children and their community, [sign up to our newsletter](http://eepurl.com/iaST0v){:target="\_blank"} and consider joining our rides!
 
-![](/whatsapp-image-2022-07-05-at-5-53-15-pm.jpeg)![](/whatsapp-image-2022-07-05-at-5-53-16-pm.jpeg)![](/whatsapp-image-2022-07-05-at-5-53-15-pmb.jpeg)
+![](/uploads/whatsapp-image-2022-07-05-at-5-53-15-pm.jpeg)![](/uploads/whatsapp-image-2022-07-05-at-5-53-16-pm.jpeg)![](/uploads/whatsapp-image-2022-07-05-at-5-53-15-pmb.jpeg)

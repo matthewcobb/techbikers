@@ -11,7 +11,7 @@ layout: ride
 
 ## Put down your laptop and pick up a bike this September
 
-Join 50 TechBikers from 8-11th September 2022 in our quest to help kids all around the world get an education by raising €50k for Room to Read!![](/screenshot-2022-06-08-at-1-41-37-pm.jpg)
+Join 50 TechBikers from 8-11th September 2022 in our quest to help kids all around the world get an education by raising €50k for Room to Read!![](/uploads/screenshot-2022-06-08-at-1-41-37-pm.jpg)
 
 ***
 
