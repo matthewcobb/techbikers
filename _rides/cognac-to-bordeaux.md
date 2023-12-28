@@ -13,7 +13,7 @@ layout: ride
 
 Join 40+ TechBikers on 13 – 16th April 2023 in our quest to help kids all around the world get an education by raising money for  Room to Read!
 
-![](/screenshot-2022-12-27-at-3-34-50-pm.png)
+![](/uploads/screenshot-2022-12-27-at-3-34-50-pm.png)
 
 ## **The ride**
 
@@ -112,5 +112,3 @@ We've been running TechBikers for a few years now. Here's a video of our ride fr
 5. You must not suffer from alcohol or drug dependency. You must not have any prior criminal convictions. You must notify us if you are not in compliance with these conditions.
 6. You will be responsible for your own personal cycling equipment, for example your helmet, cycling kit, etc. It is a requirement that you must wear a helmet at all times whilst cycling on this challenge.
 7. You must have adequate travel documents, visas, and insurance that will cover you for the specific activities you will be undertaking.
-
-![](/reedsy-parrot.jpeg)
