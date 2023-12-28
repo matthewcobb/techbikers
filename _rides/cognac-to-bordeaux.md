@@ -1,20 +1,17 @@
 ---
-duration: 3
-layout: ride
 title: "\U0001F1EB\U0001F1F7 Cognac to Bordeaux"
 description: >-
   Join 50 entrepreneurs and investors on a 3-day ride and raise funds for Room
   to Read.
 date: '2023-04-13'
+duration: 3
 header_image: ''
-_template: ride
+layout: ride
 ---
 
 ## **Are you willing to take risks outside of work? Let’s cycle with TechBikers to find out!**
 
-Join 40+ TechBikers on 13 – 16th April 2023 in our quest to help kids all around the world get an education by raising money for  Room to Read!
-
-![](/uploads/screenshot-2022-12-27-at-3-34-50-pm.png)
+Join 40+ TechBikers on 13 – 16th April 2023 in our quest to help kids all around the world get an education by raising money for  Room to Read!![](/screenshot-2022-12-27-at-3-34-50-pm.png)
 
 ## **The ride**
 
@@ -43,7 +40,7 @@ The price is based on a shared room and includes:
 * Refreshments during the ride (water, fruit, savoury & energy)
 * Route GPX and route information and advice
 * Video, photos
-* 5* service for sure!
+* 5\* service for sure!
 
 Not included:
 
@@ -64,7 +61,7 @@ To join us on this trip, you need to contribute 500 € for the participation fe
 
 ## The Charity
 
-TechBikers' selected charity is [**Room to Read**](https://www.roomtoread.org){:target="_blank"}. World change starts with educated children. In fact, if every child received an education, 171 million people would be lifted out of poverty. Room to Read is one of the foremost charities making this happen.
+TechBikers' selected charity is **[Room to Read](https://www.roomtoread.org)**{:target="\_blank"}. World change starts with educated children. In fact, if every child received an education, 171 million people would be lifted out of poverty. Room to Read is one of the foremost charities making this happen.
 
 ***
 
@@ -96,7 +93,7 @@ If you cancel after you've signed up, we won't be able to refund your contributi
 
 ### Any questions we forgot to answer?
 
-Don’t hesitate to reach out to sdc@daphni.com.
+Don’t hesitate to reach out to [sdc@daphni.com](mailto:sdc@daphni.com).
 
 ### Still hesitating? Watch these videos
 
