@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Terms
-
+_template: page
 ---
+
 ## Terms of Use
 
 Last updated June 22, 2022

@@ -4,8 +4,6 @@ document.addEventListener("DOMContentLoaded", function() {
   const modalOverlayEl = document.getElementById("modal-overlay");
   const burgerEl = document.getElementById("burger");
 
-
-
   closeBtnEl.addEventListener('click', function() {
     modalEl.classList.remove("open")
   });
