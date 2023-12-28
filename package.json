@@ -1,0 +1,19 @@
+{
+  "name": "techbikers",
+  "version": "1.0.0",
+  "description": "Temporary website: https://matthewcobb.github.io/fundraising-field-guide/",
+  "main": "scripts.js",
+  "devDependencies": {
+    "@tinacms/cli": "^1.5.39"
+  },
+  "scripts": {
+    "dev": "tinacms dev -c 'jekyll serve --watch'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tinacms": "^1.5.28"
+  }
+}
