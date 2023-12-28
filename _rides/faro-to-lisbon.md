@@ -4,10 +4,12 @@ date: '2022-09-08'
 layout: ride
 header_image: ''
 duration: 3
-description: Join 50 entrepreneurs and investors on a 3-day ride and raise funds for
-  Room to Read.
-
+description: >-
+  Join 50 entrepreneurs and investors on a 3-day ride and raise funds for Room
+  to Read.
+_template: ride
 ---
+
 ## Put down your laptop and pick up a bike this September
 
 Join 50 TechBikers from 8-11th September 2022 in our quest to help kids all around the world get an education by raising €50k for Room to Read!

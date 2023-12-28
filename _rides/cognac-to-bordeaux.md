@@ -2,12 +2,14 @@
 duration: 3
 layout: ride
 title: "\U0001F1EB\U0001F1F7 Cognac to Bordeaux"
-description: Join 50 entrepreneurs and investors on a 3-day ride and raise funds for
-  Room to Read.
+description: >-
+  Join 50 entrepreneurs and investors on a 3-day ride and raise funds for Room
+  to Read.
 date: '2023-04-13'
 header_image: ''
-
+_template: ride
 ---
+
 ## **Are you willing to take risks outside of work? Let’s cycle with TechBikers to find out!**
 
 Join 40+ TechBikers on 13 – 16th April 2023 in our quest to help kids all around the world get an education by raising money for  Room to Read!

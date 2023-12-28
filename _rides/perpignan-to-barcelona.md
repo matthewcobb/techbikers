@@ -4,8 +4,9 @@ date: '2019-05-18'
 layout: ride
 header_image: ''
 duration: 3
-
+_template: ride
 ---
+
 As a founder, it’s easy to get lost while trekking through the fundraising process. The dynamics of speaking to someone who has the capital you need, while discussing terms you’ve never heard of, can all be quite daunting. This book deciphers the secrets to raising capital from investors for early-stage, high-growth startups. Learn about communicating with investors, shareholders and lawyers. We will go over the materials you will need to prepare, the basics of how to understand your deal, and the mindset you will need to approach this journey successfully. The aim is to provide you, the ambitious early-stage founder, with the right information to take your company to the next level.
 
 This new and updated version provides an overview of the soft and not-so-soft challenges you will need to prepare for as part of your fundraising journey, including things like reaching out to investors, dealing with rejections constructively, preparing materials and financials, understanding valuations and deal terms, how to manage the legal process and a crowdfunding chapter with statistics from crowdfunding platform [Seedrs](https://www.seedrs.com/) (who kindly helped in providing advice on how to best navigate). I sincerely hope you enjoy the book and get lots of use from it.

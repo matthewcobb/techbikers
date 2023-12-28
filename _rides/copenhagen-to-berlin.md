@@ -4,5 +4,6 @@ date: '2019-09-06'
 layout: ride
 header_image: ''
 duration: 2
-
+_template: ride
 ---
+
