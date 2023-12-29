@@ -74,7 +74,7 @@ The kind sponsors and supporters for this ride:
 
 **[Reedsy](https://reedsy.com)**{:target="\_blank"} — a community of 1,000,000 authors and freelance publishing professionals, turning ideas into beautiful books.
 
-**[Daphni](https://www.daphni.com "Daphni")**{:target="\_blank"} —a Paris-based Venture Capital (VC) firm that combines an accessible community of +300 experts and a digital platform
+**[Daphni](https://www.daphni.com "Daphni")**{:target="\_blank"} — a Paris-based Venture Capital (VC) firm that combines an accessible community of +300 experts and a digital platform
 
 **[Mulebar](https://www.mulebar.com)**{:target="\_blank"} — an innovative and sustainable sports nutrition company that makes energy gels and bars without preservatives, colorings or additives.
 
