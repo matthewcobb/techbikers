@@ -5,15 +5,13 @@ description: >-
   to Read.
 date: '2024-04-26'
 duration: 3
-header_image: /uploads/ENA20220911_9595.jpg
+header_image: ''
 layout: ride
 ---
 
 ## **Are you willing to take risks outside of work? Let’s cycle with TechBikers to find out!**
 
-Join 40+ TechBikers on April 26th to 28th 2024 in our quest to help kids all around the world get an education by raising money for Room to Read!
-
-![](/uploads/screenshot-2022-12-27-at-3-34-50-pm.png)
+Join 40+ TechBikers on April 26th to 28th 2024 in our quest to help kids all around the world get an education by raising money for Room to Read!![](</uploads/TB 2023.png>)
 
 ## **The ride**
 
