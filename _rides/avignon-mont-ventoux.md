@@ -4,7 +4,7 @@ description: >-
   Join 40 entrepreneurs and investors on a 3-day ride and raise funds for Room
   to Read.
 date: '2024-04-26'
-duration: 3
+duration: 2
 header_image: ''
 layout: ride
 ---
